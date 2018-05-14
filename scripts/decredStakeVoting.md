@@ -15,13 +15,13 @@ Stake servers stand by 24/7 to ensure votes are counted and rewards are earned, 
 
 Ticket holder's votes are essential to the integrity of the Decred network. 
 
-The 5 votes in each new block determine the validity of the previous one. If the previous block is deemed invalid, the transactions and proof-of-work portion of the block reward are stripped from the network. The proof-of-stake portion of of the block reward is always rewarded, whether ticket holders deem the block valid or not. 
+The 5 votes in each new block determine the validity of the previous one. If the previous block is deemed invalid, the transactions and proof-of-work portion of the block reward are stripped from the network. The proof-of-stake portion of the block reward is paid out whether ticket holders deem the previous block valid or not. 
 
-This way, ticket holders are compensated for stopping miner attacks and preventing unwanted chain forks.
+PoS voters are free to reject blocks they seem as invalid and still be rewarded, while PoW miners must comply with the rules set by voters to receive their rewards. This gives PoS voters the power to punish and stop PoW miners misbehavior and prevent unwanted chain forks. 
 
-Decisions regarding consensus rule changes and network updates are also made by votes cast by ticket holders. This is how the rules were updated to make the ticket pricing algorithm more efficient, how the network will be upgraded to perform lightning transactions, and how, for example, block size _could_ be changed.
+Decisions regarding consensus rule changes and network updates are also made by PoS voters, in a binding on-chain devision-making system. Through this system stakeholders have already voted to change the ticket pricing algorithm to make it more efficient and to prepare the network for lightning transactions. This system can be used to make any change to the consensus rules that has ticket holder support smoothly, like for example a change to the block size limit.
 
-What's more, cryptographic ticket "receipts" are used to _verify_ ticket holders and allow them to interface with Politeia; Decred's chain-anchored proposal system. Through Politeia, users can participate in Decred self-governance by voting to determine which projects receive funding.
+What's more, cryptographic ticket "receipts" are used to _verify_ ticket holders and allow them to interface with Politeia; Decred's chain-anchored proposal system. Through Politeia, users can participate in Decred self-governance by voting to determine which projects receive funding from the project subsidy wallet.
 
 The return on investment from stake voting will be different for each ticket holder based on the current ticket price, block reward, and luck.
 
