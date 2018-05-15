@@ -15,11 +15,11 @@ Stake servers stand by 24/7 to ensure votes are counted and rewards are earned, 
 
 Ticket holder's votes are essential to the integrity of the Decred network. 
 
-The 5 votes in each new block determine the validity of the previous one. If the previous block is deemed invalid, the transactions and proof-of-work portion of the block reward are stripped from the network. The proof-of-stake portion of of the block reward is always rewarded, whether ticket holders deem the block valid or not. 
+The 5 votes in each new block determine the validity of the previous one. If the previous block is deemed invalid, the transactions and proof-of-work portion of the block reward are stripped from the network. The proof-of-stake portion of of the block reward is always paid out whether ticket holders deem the previous block valid or not. 
 
 This way, ticket holders are compensated for stopping miner attacks and preventing unwanted chain forks.
 
-Decisions regarding consensus rule changes and network updates are also made by votes cast by ticket holders. This is how the rules were updated to make the ticket pricing algorithm more efficient, how the network will be upgraded to perform lightning transactions, and how, for example, block size _could_ be changed.
+Decisions regarding consensus rule changes and network updates are also made by proof-of-stake voters through an on-chain decision-making system. Through this system stakeholders have already voted to change the ticket pricing algorithm to make it more efficient and to prepare the network for lightning transactions. 
 
 What's more, cryptographic ticket "receipts" are used to _verify_ ticket holders and allow them to interface with Politeia; Decred's chain-anchored proposal system. Through Politeia, users can participate in Decred self-governance by voting to determine which projects receive funding.
 
