@@ -23,7 +23,7 @@ Decisions regarding consensus rule changes and network updates are also made by 
 
 What's more, cryptographic ticket "receipts" are used to verify ticket holders and allow them to interface with Politeia; Decred's chain-anchored proposal system. Through Politeia, users can participate in Decred self-governance by voting to determine which Decred improvement projects receive funding from the development fund.
 
-After a ticket holder's various votes have been cast, their locked coins used to purchase their ticket become are unlocked and their proof-of-stake reward is debited to their account. They can then choose to purchase another ticket, or spend their funds elsewhere.
+After a ticket holder's various votes have been cast, their locked coins used to purchase their ticket are unlocked and their proof-of-stake reward is credited to their account. They can then choose to purchase another ticket, or spend their funds elsewhere.
 
 Thanks to its proof-of-stake voting system, Decred is an autonomous self-funded crypto-currency where stakeholders make the rules.
 
