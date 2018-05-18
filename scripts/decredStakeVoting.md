@@ -17,7 +17,7 @@ The 5 votes mined into each new block determine the validity of the previous one
 
 Voters, on the other hand, are always rewarded with their share of the block reward. This way voters are compensated for stopping miner attacks and preventing unwanted chain forks by rejecting blocks that break the consensus rules.
 
-Decisions regarding consensus rule changes and network updates are also made by voters through an on-chain decision-making system. Through this system stakeholders have already voted to change the algorithm responsible for setting the price of a ticket as well as to prepare the network for lightning transactions. 
+Decisions regarding consensus rule changes and network upgrades are also made by voters through an on-chain decision-making system. Through this system stakeholders have already voted to change the algorithm responsible for setting the price of a ticket as well as to prepare the network for lightning transactions. 
 
 What's more, cryptographic ticket "receipts" are used to verify ticket holders and allow them to interface with Politeia; Decred's chain-anchored proposal system. Through Politeia, users can participate in Decred self-governance by voting to determine which Decred improvement projects receive funding from the development fund.
 
