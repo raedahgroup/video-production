@@ -1,4 +1,5 @@
-# Decred in Depth: Politeia
+## Decred in Depth: Politeia
+### Voice Over
 
 ### Keywords
 `proposal`, `Timestamped`, `versioned`, `self-governance`, `immutable`, `off-chain storage`, `git`, `chain-anchored`
