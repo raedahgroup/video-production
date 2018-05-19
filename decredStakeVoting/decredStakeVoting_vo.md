@@ -1,7 +1,5 @@
-# Decred In Depth: Stake Voting
-
-### Keywords
-`unique`, `ticket holder`, `proof-of-stake`, `vote`, `governance`
+## Decred In Depth: Stake Voting
+### Voice Over Script
 
 Decred's unique proof-of-stake system allows stakeholders to vote with their coins to secure the network and participate in its governance.
 
