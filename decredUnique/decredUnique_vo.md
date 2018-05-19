@@ -1,4 +1,5 @@
-
+## How Decred Is Unique
+### Voice Over Script
 Decred is a cryptocurrency which builds upon the strengths of bitcoin. To see how Decred is unique, let's compare the two.
 
 Both Bitcoin and Decred have a 21 million coin supply cap.
