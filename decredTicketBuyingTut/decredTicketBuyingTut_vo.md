@@ -1,7 +1,5 @@
-# How To Buy Decred Tickets
-
-### Keywords
-    Walkthrough, Tutorial, Decred, Decrediton, Buy, Tickets, Ticket Reward, Proof-of-stake 
+## How To Buy Decred Tickets
+### Voice Over Script
 
 In this video, we are going to walk through buying Decred tickets with the Decrediton wallet, step-by-step. 
 
