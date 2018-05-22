@@ -4,7 +4,7 @@
 VIDEO | AUDIO
 ----- | -----
 Decred coin with 4 blue/green circuits extending from it on a deep blue background. The Decred coin 'unplugs' from the circuit to reveal a Bitcoin beneath it. Two of the circuits turn grey, the other two turn orange/yellow. The Decred coin 'plugs' back in and all circuits return to blue/green. | Decred is a cryptocurrency which builds upon the strengths of Bitcoin. To see how Decred is unique, let's compare the two.
-Text: Decred & Bitcoin supply cap = 21 million coins | For startes, both Bitcoin and Decred have a 21 million coin supply cap. Here's where things get interesting.
+Text: Decred & Bitcoin supply cap = 21 million coins | Both Bitcoin and Decred have a 21 million coin supply cap. Here's where things get interesting.
 Orange/yellow stepped graph of Bitcoin mining subsidy over time. A Bitcoin falls down the steps. | Bitcoin's mining subsidy is reduced by 50 percent every 4 years as shown by this stepped graph.
 Blue/green curved graph of Decred mining subsidy over time. A Decred coin slowly rolls down the curve. | Decred reduces its mining subsidy smoothly and gradually by 1% every 21 days as shown by this curve.
 An orange/yellow block. | New bitcoin blocks are found and broadcast

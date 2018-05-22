@@ -1,21 +1,23 @@
 ## Decred In Depth: Stake Voting
 ### Voice Over Script
 
-Decred's unique proof-of-stake system allows stakeholders to vote with their coins to secure the network and participate in its governance.
+Decred's unique proof-of-stake system allows stakeholders to secure the network and participate in its governance by voting with their coins.
 
-To take part in the proof-of-stake voting system, stakeholders purchase 'tickets' by locking a portion of their coins. 
+To take part in the proof-of-stake voting system, stakeholders lock a portion of their coins in exchange for a ticket. 
 
-Purchased tickets are placed in the ticket pool where they wait to be randomly selected.
+All tickets are placed in the ticket pool where they wait to be randomly selected.
 
-Once a ticket is drawn, the ticket holder's votes are cast by their chosen stake server; a service which provides the infrastructure to ensure votes are broadcast to the network swiftly.
+Every block 5 tickets are drawn from the pool. 
+
+Once their ticket is drawn, the ticket holder's votes are cast by their chosen stake server; a service which provides the infrastructure to ensure votes are broadcast to the network swiftly.
 
 The votes cast by ticket holders are essential to the security and governance of the Decred network. 
 
 The 5 votes mined into each new block determine the validity of the previous one. If the previous block is deemed invalid, the transactions and proof-of-work reward are stripped from the network, punishing the miner for adding an invalid block to the chain. 
 
-Voters, on the other hand, are always rewarded with their share of the block reward. This way voters are compensated for stopping miner attacks and preventing unwanted chain forks by rejecting blocks that break the consensus rules.
+Voters, on the other hand, are always rewarded with their share of the block reward as compensated for stopping miner attacks and preventing unwanted chain forks by rejecting blocks that break the consensus rules.
 
-Decisions regarding consensus rule changes and network upgrades are also made by voters through an on-chain decision-making system. Through this system stakeholders have already voted to change the algorithm responsible for setting the price of a ticket as well as to prepare the network for lightning transactions. 
+Decisions regarding consensus rule changes and network upgrades are also made by voters through an on-chain decision-making system. Through this system stakeholders have already voted to upgrade the algorithm responsible for setting ticket prices and to prepare the network for lightning transactions. 
 
 What's more, cryptographic ticket "receipts" are used to verify ticket holders and allow them to interface with Politeia; Decred's chain-anchored proposal system. Through Politeia, users can participate in Decred self-governance by voting to determine which Decred improvement projects receive funding from the development fund.
 
