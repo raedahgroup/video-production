@@ -9,15 +9,15 @@ All tickets are placed in the ticket pool where they wait to be randomly selecte
 
 Every block 5 tickets are drawn from the pool. 
 
-Once their ticket is drawn, a ticket holder's votes are cast by their chosen stake server; a service which provides the infrastructure to ensure votes are broadcast to the network swiftly.
+Once their ticket is drawn, a ticket holder's votes are cast by their chosen vote casting service which provides the infrastructure to ensure votes are broadcast to the network swiftly.
 
 The votes cast by ticket holders are essential to the security and governance of the Decred network. 
 
-The 5 votes mined into each new block determine the validity of the previous one. If the previous block is deemed invalid, the transactions and proof-of-work reward are stripped from the network, punishing the miner for adding an invalid block to the chain. 
+The votes mined into each new block check the mining behavior demonstrated in the previous block. If three or more voters determine this behavior to be unwanted then the miner is punished by not receiving his block reward. 
 
-Voters are always rewarded whether the block is valid or not. By rejecting blocks that break the consensus rules, stakevoters stop miner attacks and prevent unwanted chain forks.
+By rejecting unwanted blocks, stakevoters stop miner attacks and prevent unwanted chain forks.
 
-Decisions regarding consensus rule changes and network upgrades are also made by voters through an on-chain decision-making system. Through this system stakeholders have already voted to upgrade the algorithm responsible for setting ticket prices and to prepare the network for lightning transactions. 
+Decisions regarding consensus rule changes and network upgrades are also made by voters through an on-chain decision-making system. Through the consensus voting system stakeholders have already voted to upgrade the algorithm responsible for setting ticket prices and to prepare the network for lightning transactions. 
 
 That's not all.
 
