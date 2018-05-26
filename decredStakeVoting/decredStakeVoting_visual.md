@@ -14,8 +14,9 @@ No. | VIDEO | AUDIO
 9 | Ballot box with a lightning bolt on it. Amount of votes (yes, no, abstain) are counted on the box. Above, a new block is added to the chain and 5 votes fall into the ballot box. As the votes fall in the vote counts rise.| Decisions regarding consensus rule changes and network upgrades are also made by voters through an on-chain decision-making system. Through this system stakeholders have already voted to upgrade the algorithm responsible for setting ticket prices and to prepare the network for lightning transactions.
 10 | Mockup of Politeia in Decrediton on a computer screen. | Thats not all. Cryptographic ticket "receipts" are used to verify ticket holders and allow them to interface with Politeia; Decred's chain-anchored proposal system. Through Politeia, users can participate in Decred self-governance by voting to determine which Decred improvement projects receive funding...
 11| Icons for 'cryptographically varifiable' and 'transparency' | ...in a cryptographically verifiable and transparent manner.
-12 | Safe holding coins is unlocked. More coins fall into a stakeholder's hand. | After a ticket holder's votes have been cast, the locked coins used to purchase the ticket are returned and the voter reward is credited to their account. They can then choose to purchase another ticket, or spend their funds elsewhere.
-13 | back to shot 1. | Thanks to its unique proof-of-stake voting system, Decred is an autonomous self-funded crypto-currency where stakeholders make the rules.
-14 | Text: Decred.org. Text: Decred.org/buy. | To begin contributing to the security and governance of the Decred network, download Decrediton at Decred.org and purchase Decred at any one of the many supporting exchanges.
-15 | Decred logo. Text: Decentralized Credits. | Decred; Decentralized Credits 
+12 | Safe holding coins is unlocked. More coins fall into a stakeholder's hand. | After a ticket holder's votes have been cast, the locked coins used to purchase the ticket are returned and the voter reward is credited to their account. 
+13| Ticket and Decred Jacket | They can then choose to purchase another ticket, or spend their funds elsewhere.
+14 | back to shot 1. | Thanks to its unique proof-of-stake voting system, Decred is an autonomous self-funded crypto-currency where stakeholders make the rules.
+15 | Text: Decred.org. Text: Decred.org/buy. | To begin contributing to the security and governance of the Decred network, download Decrediton at Decred.org and purchase Decred at any one of the many supporting exchanges.
+16 | Decred logo. Text: Decentralized Credits. | Decred; Decentralized Credits 
  
