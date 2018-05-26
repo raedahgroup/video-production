@@ -7,7 +7,7 @@ To take part in the proof-of-stake voting system, stakeholders lock a portion of
 
 All tickets are placed in the ticket pool where they wait to be randomly selected.
 
-Every block 5 tickets are drawn from the pool. 
+Every 5 minutes, 5 tickets are drawn from the pool. 
 
 Once their ticket is drawn, a ticket holder's votes are cast by their chosen vote casting service which provides the infrastructure to ensure votes are broadcast to the network swiftly.
 

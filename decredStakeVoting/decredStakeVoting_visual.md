@@ -7,7 +7,7 @@ No. | VIDEO | AUDIO | TIME
 1 | "Map" of Decred PoS sytem which looks like a circuitboard with nodes representing proposal voting, block voting, and consensus voting. | Decred's unique proof-of-stake system allows stakeholders to secure the network and participate in its governance by voting with their coins. | 10
 2 | Coins are locked in a safe and a ticket is dispensed. | To take part in the proof-of-stake voting system, stakeholders lock a portion of their coins in exchange for a ticket. | 9
 3 | A pool of tickets. | All tickets are placed in the ticket pool where they wait to be randomly selected. | 7
-4 | **text:** *5 minutes*. 5 tickets are pulled from the ticket pool. | Every block 5 tickets are drawn from the pool. | 4 
+4 | **text:** *5 minutes*. 5 tickets are pulled from the ticket pool. | Every 5 minutes, 5 tickets are drawn from the pool. | 4 
 5| Network "map" with voting service providers represented as servers. 5 of the servers broadcast votes to the network. | Once their ticket is drawn, a ticket holder's votes are cast by their chosen vote casting service which provides the infrastructure to ensure votes are broadcast to the network swiftly. | 12
 6 | Stream of thumbs up/down. Sheild and greek library. | The votes cast by ticket holders are essential to the security and governance of the Decred network. | 8
 7 | A block is added to a chain. 5 votes (thumbs up/down) pop out of the block and deem the previous one invalid by 4/1. The previous block turns red and falls out of the chain. | The votes mined into each new block check the mining behavior demonstrated in the previous block. If three or more voters determine this behavior to be unwanted then the miner is punished by not receiving his block reward. | 17
