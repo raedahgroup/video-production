@@ -16,7 +16,7 @@ No. | VIDEO | AUDIO | TIME
 10 | Mockup of Politeia in Decrediton on a computer screen. | Thats not all. Cryptographic ticket "receipts" are used to verify ticket holders and allow them to interface with Politeia; Decred's chain-anchored proposal system. Through Politeia, users can participate in Decred self-governance by voting to determine which Decred improvement projects receive funding... | 21
 11| Icons for 'cryptographically varifiable' and 'transparency'. | ...in a cryptographically verifiable and transparent manner. | 5
 12 | vault holding coins is unlocked. | After a ticket holder's votes have been cast, the locked coins used to purchase the ticket are returned... | 6
-13 | More coins fall into a stakeholder's hand. | ...and the voter reward is credited to their account. | 4
+13 | Coins fall into a wallet. | ...and the voter reward is credited to their account. | 4
 14 | Ticket and Decred Jacket. | They can then choose to purchase another ticket, or spend their funds elsewhere. | 5
 15 | back to shot 1. | Thanks to its unique proof-of-stake voting system, Decred is an autonomous self-funded crypto-currency where stakeholders make the rules. | 9
 16 | **text:** *Decred.org*. **text:** *Decred.org/buy*. | To begin contributing to the security and governance of the Decred network, download Decrediton at Decred.org and purchase Decred at any one of the many supporting exchanges. | 10
