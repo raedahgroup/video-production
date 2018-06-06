@@ -474,7 +474,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.64"
-     inkscape:cx="251.20907"
+     inkscape:cx="-12.07218"
      inkscape:cy="321.04248"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
@@ -482,11 +482,11 @@
      units="px"
      inkscape:showpageshadow="false"
      borderlayer="true"
-     inkscape:window-width="1278"
-     inkscape:window-height="991"
-     inkscape:window-x="674"
-     inkscape:window-y="31"
-     inkscape:window-maximized="0"
+     inkscape:window-width="2560"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
      inkscape:snap-global="false">
     <inkscape:grid
        type="xygrid"
@@ -1857,7 +1857,7 @@
        clip-path="url(#SVGID_2_)"
        id="path16928-3"
        inkscape:connector-curvature="0"
-       style="fill:#2971ff;fill-opacity:1" />
+       style="fill:#e7eaed;fill-opacity:1" />
     <rect
        x="24.0203"
        y="259.8103"
