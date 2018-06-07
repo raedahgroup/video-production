@@ -22,7 +22,7 @@ No. | VISUAL | DESCRIPTION | TIME
 16 |  ![Shot 16](../decredStakeVoting/img/shot_16.svg) | vault holding coins is unlocked. | 6
 17 | ![Shot 17](../decredStakeVoting/img/shot_17.svg) | More coins fall into a wallet. | 4
 18 | ![Shot 18](../decredStakeVoting/img/shot_18.svg) | Ticket and Decred Jacket. | 5
-19 |  ![Shot 19](../decredStakeVoting/img/shot_19.svg) | back to shot 2. | 9
+19 |  ![Shot 19](../decredStakeVoting/img/shot_2.svg) | back to shot 2. | 9
 20 | ![Shot 20](../decredStakeVoting/img/shot_20.svg) | **text:** *Decred.org*. **text:** *Decred.org/buy*. | 10
 21 | ![Shot 21](../decredStakeVoting/img/shot_21.svg) | Decred logo. **text:** *Decentralized Credits.* | 3
  
