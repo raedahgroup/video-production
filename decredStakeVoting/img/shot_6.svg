@@ -428,8 +428,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.031"
-     inkscape:cx="305.7171"
-     inkscape:cy="178.73498"
+     inkscape:cx="328.64696"
+     inkscape:cy="293.98587"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="true"
@@ -461,7 +461,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
         <cc:license
            rdf:resource="http://artlibre.org/licence/lal" />
       </cc:Work>
@@ -2668,7 +2668,7 @@
        clip-path="url(#SVGID_2_)"
        id="path5983"
        inkscape:connector-curvature="0"
-       style="fill:#2252a3;fill-opacity:1" />
+       style="fill:#2ed6a1;fill-opacity:1" />
     <path
        transform="matrix(0,0.22048401,-0.22048401,0,-14.410282,311.11758)"
        class="st5"
@@ -2676,9 +2676,9 @@
        clip-path="url(#SVGID_2_)"
        id="path5985"
        inkscape:connector-curvature="0"
-       style="fill:#2ed6a1;fill-opacity:1" />
+       style="fill:#2971ff;fill-opacity:1" />
     <path
-       style="fill:#2252a3;fill-opacity:1"
+       style="fill:#2ed6a1;fill-opacity:1"
        inkscape:connector-curvature="0"
        id="path5987"
        clip-path="url(#SVGID_2_)"
@@ -3702,7 +3702,7 @@
        class="st6"
        transform="matrix(0,0.22048401,0.22048401,0,157.28559,319.0676)" />
     <path
-       style="fill:#2252a3;fill-opacity:1"
+       style="fill:#2ed6a1;fill-opacity:1"
        inkscape:connector-curvature="0"
        id="path6325"
        clip-path="url(#SVGID_2_)"
@@ -3710,7 +3710,7 @@
        class="st6"
        transform="matrix(0,0.22048401,-0.22048401,0,28.081966,319.0676)" />
     <path
-       style="fill:#2ed6a1;fill-opacity:1"
+       style="fill:#2971ff;fill-opacity:1"
        inkscape:connector-curvature="0"
        id="path6327"
        clip-path="url(#SVGID_2_)"
@@ -3724,7 +3724,7 @@
        clip-path="url(#SVGID_2_)"
        id="path6329"
        inkscape:connector-curvature="0"
-       style="fill:#2252a3;fill-opacity:1" />
+       style="fill:#2ed6a1;fill-opacity:1" />
     <g
        id="g6347"
        transform="matrix(0,0.8333254,-0.8333254,0,244.95754,184.84777)">
@@ -4400,58 +4400,6 @@
          d="m -356.2,-301.6 c 4.7,0 8.6,3.8 8.6,8.6 0,4.7 -3.8,8.6 -8.6,8.6 -4.7,0 -8.6,-3.8 -8.6,-8.6 0,-4.7 3.9,-8.6 8.6,-8.6 m -6.3,24.3 c 1.4,-2 3.7,-3.4 6.3,-3.4 2.6,0 5,1.4 6.3,3.4 h 8 v -4.3 0 -31.6 h -6.7 c 0,0 0,0 0,0 0,4.2 -3.4,7.7 -7.6,7.7 -4.2,0 -7.7,-3.4 -7.7,-7.7 0,0 0,0 0,0 h -6.7 v 31.6 0 4.3 z"
          class="st6"
          transform="matrix(0.26458333,0,0,-0.26458333,161.06532,92.502972)" />
-    </g>
-    <g
-       id="g6533"
-       transform="matrix(0,0.8333254,-0.8333254,0,170.7079,193.40933)">
-      <path
-         transform="matrix(0.26458333,0,0,0.26458333,161.06532,247.5488)"
-         class="st6"
-         d="m -356.2,-301.6 c 4.7,0 8.6,3.8 8.6,8.6 0,4.7 -3.8,8.6 -8.6,8.6 -4.7,0 -8.6,-3.8 -8.6,-8.6 0,-4.7 3.9,-8.6 8.6,-8.6 m -6.3,24.3 c 1.4,-2 3.7,-3.4 6.3,-3.4 2.6,0 5,1.4 6.3,3.4 h 8 v -4.3 0 -31.6 h -6.7 c 0,0 0,0 0,0 0,4.2 -3.4,7.7 -7.6,7.7 -4.2,0 -7.7,-3.4 -7.7,-7.7 0,0 0,0 0,0 h -6.7 v 31.6 0 4.3 z"
-         clip-path="url(#SVGID_2_)"
-         id="path6521"
-         inkscape:connector-curvature="0"
-         style="fill:#8794a3" />
-      <path
-         transform="matrix(0.26458333,0,0,0.26458333,161.06532,247.5488)"
-         class="st5"
-         d="m -356.2,-284.4 c 4.7,0 8.6,-3.8 8.6,-8.6 0,-4.7 -3.8,-8.6 -8.6,-8.6 -4.7,0 -8.6,3.8 -8.6,8.6 0,4.7 3.9,8.6 8.6,8.6"
-         clip-path="url(#SVGID_2_)"
-         id="path6523"
-         inkscape:connector-curvature="0"
-         style="fill:#171740" />
-      <path
-         style="fill:#8794a3"
-         inkscape:connector-curvature="0"
-         id="path6525"
-         clip-path="url(#SVGID_2_)"
-         d="m -356.2,-301.6 c 4.7,0 8.6,3.8 8.6,8.6 0,4.7 -3.8,8.6 -8.6,8.6 -4.7,0 -8.6,-3.8 -8.6,-8.6 0,-4.7 3.9,-8.6 8.6,-8.6 m -6.3,24.3 c 1.4,-2 3.7,-3.4 6.3,-3.4 2.6,0 5,1.4 6.3,3.4 h 8 v -4.3 0 -31.6 h -6.7 c 0,0 0,0 0,0 0,4.2 -3.4,7.7 -7.6,7.7 -4.2,0 -7.7,-3.4 -7.7,-7.7 0,0 0,0 0,0 h -6.7 v 31.6 0 4.3 z"
-         class="st6"
-         transform="matrix(0.26458333,0,0,-0.26458333,161.06532,92.502972)" />
-      <path
-         style="fill:#2252a3;fill-opacity:1"
-         inkscape:connector-curvature="0"
-         id="path6527"
-         clip-path="url(#SVGID_2_)"
-         d="m -356.2,-301.6 c 4.7,0 8.6,3.8 8.6,8.6 0,4.7 -3.8,8.6 -8.6,8.6 -4.7,0 -8.6,-3.8 -8.6,-8.6 0,-4.7 3.9,-8.6 8.6,-8.6 m -6.3,24.3 c 1.4,-2 3.7,-3.4 6.3,-3.4 2.6,0 5,1.4 6.3,3.4 h 8 v -4.3 0 -31.6 h -6.7 c 0,0 0,0 0,0 0,4.2 -3.4,7.7 -7.6,7.7 -4.2,0 -7.7,-3.4 -7.7,-7.7 0,0 0,0 0,0 h -6.7 v 31.6 0 4.3 z"
-         class="st6"
-         transform="matrix(0.26458333,0,0,0.26458333,161.06532,247.5488)" />
-      <path
-         style="fill:#f3f6f6;fill-opacity:1"
-         inkscape:connector-curvature="0"
-         id="path6529"
-         clip-path="url(#SVGID_2_)"
-         d="m -356.2,-284.4 c 4.7,0 8.6,-3.8 8.6,-8.6 0,-4.7 -3.8,-8.6 -8.6,-8.6 -4.7,0 -8.6,3.8 -8.6,8.6 0,4.7 3.9,8.6 8.6,8.6"
-         class="st5"
-         transform="matrix(0.26458333,0,0,0.26458333,161.06532,247.5488)" />
-      <path
-         transform="matrix(0.26458333,0,0,-0.26458333,161.06532,92.502972)"
-         class="st6"
-         d="m -356.2,-301.6 c 4.7,0 8.6,3.8 8.6,8.6 0,4.7 -3.8,8.6 -8.6,8.6 -4.7,0 -8.6,-3.8 -8.6,-8.6 0,-4.7 3.9,-8.6 8.6,-8.6 m -6.3,24.3 c 1.4,-2 3.7,-3.4 6.3,-3.4 2.6,0 5,1.4 6.3,3.4 h 8 v -4.3 0 -31.6 h -6.7 c 0,0 0,0 0,0 0,4.2 -3.4,7.7 -7.6,7.7 -4.2,0 -7.7,-3.4 -7.7,-7.7 0,0 0,0 0,0 h -6.7 v 31.6 0 4.3 z"
-         clip-path="url(#SVGID_2_)"
-         id="path6531"
-         inkscape:connector-curvature="0"
-         style="fill:#2252a3;fill-opacity:1" />
     </g>
     <g
        id="g6547"
@@ -5476,7 +5424,7 @@
        clip-path="url(#SVGID_2_)"
        id="path6827"
        inkscape:connector-curvature="0"
-       style="fill:#2252a3;fill-opacity:1" />
+       style="fill:#2ed6a1;fill-opacity:1" />
     <path
        transform="matrix(0,0.22048401,-0.22048401,0,-25.103016,335.78303)"
        class="st5"
@@ -5484,9 +5432,9 @@
        clip-path="url(#SVGID_2_)"
        id="path6829"
        inkscape:connector-curvature="0"
-       style="fill:#2ed6a1;fill-opacity:1" />
+       style="fill:#2971ff;fill-opacity:1" />
     <path
-       style="fill:#2252a3;fill-opacity:1"
+       style="fill:#2ed6a1;fill-opacity:1"
        inkscape:connector-curvature="0"
        id="path6831"
        clip-path="url(#SVGID_2_)"
@@ -5570,7 +5518,7 @@
        class="st6"
        transform="matrix(0,0.22048401,0.22048401,0,167.87246,335.78303)" />
     <path
-       style="fill:#2252a3;fill-opacity:1"
+       style="fill:#2ed6a1;fill-opacity:1"
        inkscape:connector-curvature="0"
        id="path6913"
        clip-path="url(#SVGID_2_)"
@@ -5578,7 +5526,7 @@
        class="st6"
        transform="matrix(0,0.22048401,-0.22048401,0,38.668841,335.78303)" />
     <path
-       style="fill:#2ed6a1;fill-opacity:1"
+       style="fill:#2971ff;fill-opacity:1"
        inkscape:connector-curvature="0"
        id="path6915"
        clip-path="url(#SVGID_2_)"
@@ -5592,7 +5540,7 @@
        clip-path="url(#SVGID_2_)"
        id="path6917"
        inkscape:connector-curvature="0"
-       style="fill:#2252a3;fill-opacity:1" />
+       style="fill:#2ed6a1;fill-opacity:1" />
     <g
        id="g6933"
        transform="matrix(0,0.8333254,-0.8333254,0,255.65028,201.5632)">
@@ -7460,7 +7408,7 @@
        clip-path="url(#SVGID_2_)"
        id="path7713"
        inkscape:connector-curvature="0"
-       style="fill:#2252a3;fill-opacity:1" />
+       style="fill:#2ed6a1;fill-opacity:1" />
     <path
        transform="matrix(0,0.22048401,-0.22048401,0,-3.7812761,352.29461)"
        class="st5"
@@ -7468,9 +7416,9 @@
        clip-path="url(#SVGID_2_)"
        id="path7715"
        inkscape:connector-curvature="0"
-       style="fill:#2ed6a1;fill-opacity:1" />
+       style="fill:#2971ff;fill-opacity:1" />
     <path
-       style="fill:#2252a3;fill-opacity:1"
+       style="fill:#2ed6a1;fill-opacity:1"
        inkscape:connector-curvature="0"
        id="path7717"
        clip-path="url(#SVGID_2_)"

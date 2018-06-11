@@ -16,7 +16,7 @@
    version="1.1"
    id="svg2052"
    inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
-   sodipodi:docname="shot_10.svg">
+   sodipodi:docname="shot_16.svg">
   <defs
      id="defs2046">
     <marker
@@ -989,9 +989,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.99206748"
-     inkscape:cx="173.30537"
-     inkscape:cy="275.24546"
+     inkscape:zoom="0.49603374"
+     inkscape:cx="241.33284"
+     inkscape:cy="430.62544"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="true"
@@ -1061,6 +1061,12 @@
      id="layer2"
      inkscape:label="layer1"
      transform="translate(0,-211.66667)">
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path15170"
+       d="m -3.2346163,248.708 34.2059203,6.8e-4"
+       style="display:inline;fill:none;stroke:#2ed8a3;stroke-width:1.07138503;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.92513368" />
     <g
        id="g1164-3"
        transform="matrix(0.02075796,0,0,0.02075796,74.437964,236.29816)" />
