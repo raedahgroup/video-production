@@ -30,4 +30,3 @@ No. | VISUAL | DESCRIPTION | AUDIO | TIME
 24 |  ![Shot 24](../decredStakeVoting/img/shot_24.svg) | Decred symbol and wallet icon | ... download Decrediton at Decred.org ...  | 4 
 25 |  ![Shot 25](../decredStakeVoting/img/shot_25.svg) | Decred symbol and exchange icon | ... and purchase Decred at any one of the many supporting exchanges. | 6
 26 | ![Shot 26](../decredStakeVoting/img/shot_26.svg) | Decred logo. **text:** *Decentralized Credits.* | Decred; Decentralized Credits. | 3
- 
