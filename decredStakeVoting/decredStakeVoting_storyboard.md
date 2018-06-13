@@ -3,7 +3,7 @@
 **Estimated Runtime:** 2.7 minutes
 
 No. | VISUAL | DESCRIPTION | AUDIO | TIME
---- | ------ | ----- | ----- | ----
+:-: | :----: | :---: | :---: | :--:
 1 | ![Shot 1](../decredStakeVoting/img/shot_1.svg) | Decred symbol | x | x
 2 | ![Shot 2](../decredStakeVoting/img/shot_2.svg) | "Map" of Decred PoS voting sytem which with nodes representing proposal voting, block voting, and consensus voting. | Decred's unique proof-of-stake system allows stakeholders to secure the network, participate in its governance, and change consensus rules by voting with their coins. To take part in the proof-of-stake voting system, ... | 14
 3 | ![Shot 3](../decredStakeVoting/img/shot_18.svg) | Coins are locked in a vault. | ...stakeholders lock a portion of their coins... in exchange for a ticket. | 4.5
@@ -17,10 +17,10 @@ No. | VISUAL | DESCRIPTION | AUDIO | TIME
 11 | ![Shot 11](../decredStakeVoting/img/shot_11.svg) | Votes are counted from the new block. The block is voted unwanted by a 60 - 40 majority. The block turns grey and dissolves. The new block slides in to fill the void. | If a majority determine this behavior to be unwanted then the block is stripped from the network. | 10 
 12 | ![Shot 12](../decredStakeVoting/img/shot_12.svg) | The block voting process continues extending the chain. | By rejecting unwanted blocks that break the consensus rules, stakevoters keep Proof-of-Work miners in check and prevent unwanted chain forks. | 12
 13 | ![Shot 13](../decredStakeVoting/img/shot_13.svg) | **text:** *Implement lightning? y/n* | Decisions regarding consensus rule changes are also made by voters.  | 7
-14 | ![Shot 14](../decredStakeVoting/img/shot_14.svg) | Code icon with lightning bolt. Amount of votes (_yes, no_) are counted. Above, a new block is added to the chain and 5 more votes are counted. | Through the on-chain decision-making system stakeholders have already voted to prepare the network for lightning transactions. Thats not all. | 13
-15 | ![Shot 15](../decredStakeVoting/img/shot_15.svg) | Map of Politeia *(blockchain -> dcrTime -> politeia gui)* . | Ticket holders are granted access to Politeia; Decred's chain-anchored proposal system.  | 7
+14 | ![Shot 14](../decredStakeVoting/img/shot_14.svg) | Code icon with lightning bolt. Amount of votes (_yes, no_) are counted. Above, a new block is added to the chain and 5 more votes are counted. | Through the on-chain decision-making system stakeholders have already voted to prepare the network for lightning transactions. That's not all. | 13
+15 | ![Shot 15](../decredStakeVoting/img/shot_15.svg) | Map of Politeia *(blockchain -> dcrTime -> politeia GUI)* . | Ticket holders are granted access to Politeia; Decred's chain-anchored proposal system.  | 7
 16 | ![Shot 16](../decredStakeVoting/img/shot_16.svg) | Mockup of Politeia on a computer screen. | Through Politeia, users can participate in Decred self-governance by voting to determine which Decred improvement projects receive funding... | 14
-17| ![Shot 17](../decredStakeVoting/img/shot_17.svg) | Icons for 'cryptographically varifiable' and 'transparency'. | ...in a cryptographically verifiable and transparent manner. | 5
+17| ![Shot 17](../decredStakeVoting/img/shot_17.svg) | Icons for 'cryptographically verifiable' and 'transparency'. | ...in a cryptographically verifiable and transparent manner. | 5
 18 |  ![Shot 18](../decredStakeVoting/img/shot_18.svg) | Vault holding coins is unlocked. | After a ticket holder's votes have been cast, the locked coins used to purchase the ticket are returned... | 6
 19 | ![Shot 19](../decredStakeVoting/img/shot_19.svg) | Coins fall into a wallet. | ...and the voter reward is credited to their account. | 4
 20 | ![Shot 20](../decredStakeVoting/img/shot_20.svg) | Ticket and Decred Jacket. | They can then choose to purchase another ticket, or spend their funds elsewhere. | 5
