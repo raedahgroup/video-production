@@ -222,6 +222,8 @@ def parse_story(path):
         table.append(Row(line.split('|')))
     return header, table
 
+def refactor_img(dir):
+    return None
 
 
 # ARG PARSING
@@ -263,12 +265,20 @@ def parse_args():
             if confirm(input('create {} from {}? Y/n: '.format(o, i))):
                 gen_story(i, o, dir)
         elif i_args[0] == 'split':
+            img = False
             row_id = int(i_args[1])
-            text = i_args[2:]
+            if i_args[-1] == '--img':
+                text = i_args[2:-1]
+                img = True
+            # print(img)
+            else:
+                text = i_args[2:]
             i = './{}/{}_storyboard.md'.format(dir, dir)
             if confirm(input('split row {} in storyboard {} at "{}"? Y/n: '.format(
-                    row_id, i, text[0]))):
+                    row_id, i, text))):
                 split_row(i, row_id, text)
+                if img:
+                    refactor_img(dir)
 
 
 if __name__ == '__main__':
