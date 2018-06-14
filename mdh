@@ -1,0 +1,184 @@
+#!/usr/bin/python3
+
+import copy, sys, os
+
+
+class Row:
+    def __init__(self, row=list()):
+        self.i = int(row[0])
+        self.img = row[1]
+        self.description = row[2]
+        self.vo = row[3]
+        self.time = row[4]
+
+    def build(self):
+        return '{} |{}|{}|{}|{}'.format(str(self.i),
+                                                 self.img,
+                                                 self.description,
+                                                 self.vo,
+                                                 self.time)
+
+    def split(self, id):
+        vo = self.vo.split(' ')
+        x = 0
+        for i, word in enumerate(vo):
+            if word in id:
+                x += 1
+                if x == len(id):
+                    self.vo = build_sentence(vo[:i]) + ' {} '.format(id[0])
+                    return ' ' + build_sentence(vo[i+1:])
+
+
+    def increment(self):
+        self.i = self.i+1
+        self.img = ' ![shot {}](../{}/img/shot_{}.svg) '.format(self.i, self.img.split('/')[1], self.i)
+
+
+def build_sentence(words):
+    sentence = ''
+    for i, word in enumerate(words):
+        sentence += word
+        if i != len(words) - 1:
+            sentence += ' '
+    return sentence
+
+def readf(path):
+    with open(path, "r") as f:
+        return f.readlines()
+
+
+def writef(path, lines):
+    with open(path, "w") as f:
+        for line in lines:
+            f.write(line)
+
+
+def buildStory(lines, dir):
+    skip = ['#', '`', '*', '\n', ' ']
+    storyLines = [ lines[0],
+                   '###Storyboard\n',
+                   '**Estimated Runtime:**\n',
+                   '\n',
+                   'No. | VISUAL | DESCRIPTION | AUDIO | TIME\n',
+                   ':-: | :----: | :---: | :---: | :--:\n'
+                ]
+    i = 1
+    for line in lines:
+        if line[0] in skip:
+            pass
+        else:
+            storyLines.append(
+                '{} | ![shot {}](../{}/img/shot_{}.svg) |  | {} | \n'.format(i,
+                                                                            i,
+                                                                            dir,
+                                                                            i,
+                                                                            line[:-1]
+                                                                           )
+            )
+            i += 1
+    return storyLines
+
+def get_storyboard(fpath):
+    lines = readf(fpath)
+    header = lines[:6]
+    tableLines = lines[6:]
+    #print(tableLines)
+    table = []
+    for line in tableLines:
+        table.append(Row(line.split('|')))
+    return header, table
+
+
+##############################################
+# main functions
+##############################################
+
+def checkDir():
+    dir = readf('./mdh.conf')[0].replace('\n', '')
+    if dir == '':
+        print('working directory not set! Set with [dir].')
+        exit()
+    else:
+        return dir
+
+
+def setDir(dir):
+    if os.path.isdir('./{}'.format(dir)):
+        writef('./mdh.conf', [dir])
+    else:
+        print('Subdirectory ./{} does not exist!'.format(dir))
+
+
+# splits specified storyboard row into two and writes updated storyboard file.
+#
+# fpath : file to be edited - Str()
+# rowId : shot# to be split - Int()
+# text : text to determine where to split VO String() - Str()
+#
+# returns : None
+def splitRow(fpath, rowId, text):
+    header, table = get_storyboard(fpath)
+    newVo = table[rowId-1].split(text)
+    newRow = copy.copy(table[rowId-1])
+    newRow.vo = newVo
+    table.insert(rowId, newRow)
+
+    i = rowId
+    while rowId <= i < len(table):
+        table[i].increment()
+        i += 1
+
+    lines = header
+    for row in table:
+        lines.append(row.build())
+    writef(fpath, lines)
+
+# Generates a markdown storyboard template file based on the inputted VO script.
+#
+# i : path to vo script
+# o : path of storyboard file to output
+# dir : containing directory name for img links
+def generateStory(i, o, dir):
+    writef(o, buildStory(readf(i), dir))
+
+
+##############################################
+# arg parsing
+##############################################
+
+def confirm(x):
+    if x.lower() == 'y':
+        return True
+    else:
+        print('cancelled')
+        exit()
+
+
+def parseArgs():
+    xargs = ['build', 'split', 'dir', 'dir?']
+    iargs = sys.argv[1:]
+
+    if iargs[0] not in xargs:
+        print('Unknown command. Use [build], [split], or [dir(?)]')
+    else:
+        if iargs[0] == 'dir':
+            setDir(iargs[1])
+        elif iargs[0] == 'dir?':
+            dir = checkDir()
+            print('working dicrectory: ./{}'.format(dir))
+        dir = checkDir()
+        if iargs[0] == 'build':
+            i = './{}/{}_vo.md'.format(dir, dir)
+            o = './{}/{}_storyboard.md'.format(dir, dir)
+            if confirm(input('create {} from {}? Y/n: '.format(o, i))):
+                generateStory(i, o, dir)
+        elif iargs[0] == 'split':
+            rowId = int(iargs[1])
+            text = iargs[2:]
+            i = './{}/{}_storyboard.md'.format(dir, dir)
+            if confirm(input('split row {} in storyboard {} at "{}"? Y/n: '.format(rowId, i, text[0]))):
+                splitRow(i, rowId, text)
+
+
+if __name__ == '__main__':
+    parseArgs()
