@@ -123,14 +123,19 @@ def split_row(path, row_id, text):
 
 
 def gen_story(i, o, dir):
-    """Generates a markdown storyboard telmplate file based on the input
+    """Generates a markdown storyboard template file based on the input
     VO script
 
     :param i: str() - path to input VO script
     :param o: - str() - path of output storyboard file
     :param dir: - str() - working directory for building img links
     """
+    # build storyboard and write
     write_f(o, build_story(read_f(i), dir))
+
+    # check and create storyboard /img dir
+    if not os.path.isdir('./{}/img'.format(dir)):
+        os.mkdirs('./{}/img'.format(dir))
 
 
 # HELPER FUNCTIONS
