@@ -1,9 +1,18 @@
 #!/usr/bin/python3
+# -*- coding: utf-8 -*-
 
-import copy, sys, os
 
+import copy
+import os
+import sys
 
-class Row:
+class Row(object):
+    """Object representing one row in a _storyboard.md file.
+
+    Cosntructed based on a list of strings representing
+    table rows written in markdown.
+    """
+
     def __init__(self, row=list()):
         self.i = int(row[0])
         self.img = row[1]
@@ -12,13 +21,25 @@ class Row:
         self.time = row[4]
 
     def build(self):
+        """Returns self as formatted md table row string.
+
+        :return: str() - formatted md storyboard table row
+        """
+
+
         return '{} |{}|{}|{}|{}'.format(str(self.i),
-                                                 self.img,
-                                                 self.description,
-                                                 self.vo,
-                                                 self.time)
+                                     self.img,
+                                     self.description,
+                                     self.vo,
+                                     self.time)
 
     def split(self, id):
+        """Splits self.vo after given text id.
+        Returns second half for inclusion in new row.
+
+        :param id: str() - id of where to split vo text
+        :return: str() - second half of split vo text
+        """
         vo = self.vo.split(' ')
         x = 0
         for i, word in enumerate(vo):
@@ -28,13 +49,99 @@ class Row:
                     self.vo = build_sentence(vo[:i]) + ' {} '.format(id[0])
                     return ' ' + build_sentence(vo[i+1:])
 
-
     def increment(self):
+        """Increments index column and img path.
+
+        ":return: None
+        """
         self.i = self.i+1
-        self.img = ' ![shot {}](../{}/img/shot_{}.svg) '.format(self.i, self.img.split('/')[1], self.i)
+        self.img = ' ![shot {}](../{}/img/shot_{}.svg) '.format(
+            self.i, self.img.split('/')[1], self.i)
+
+
+
+
+# MAIN FUNCTIONS
+
+
+def check_dir():
+    """Checks the current set working directory by
+    reading ./mdh.conf.
+
+    :return: str() - Name of current working directory.
+    """
+    dir = read_f('./mdh.conf')[0].replace('\n', '')
+    if dir == '':
+        print('working directory not set! Set with [dir].')
+        exit()
+    else:
+        return dir
+
+
+def set_dir(dir):
+    """sets the current working directory by
+    writing to ./mdh.conf.
+
+    :param dir: str() - name of working directory
+    :return: None
+    """
+    if os.path.isdir('./{}'.format(dir)):
+        write_f('./mdh.conf', [dir])
+    else:
+        print('Subdirectory ./{} does not exist!'.format(dir))
+
+
+def split_row(path, row_id, text):
+    """Splits specified storyboard row into two,
+    writes updated storyboard file, and renames
+    svg files in ./{workingDir}/img/ if they exist
+
+    :param path: str() - file path to be edited
+    :param row_id: int() - row # to be split
+    :param text: list( str(), ... ) - text to determine where to split VO string
+    :return: None
+    """
+    header, table = parse_story(path)
+    new_vo = table[row_id-1].split(text)
+    new_row = copy.copy(table[row_id-1])
+    new_row.vo = new_vo
+    table.insert(row_id, new_row)
+
+    # loop through list of Rows and increment them.
+    i = row_id
+    while row_id <= i < len(table):
+        table[i].increment()
+        i += 1
+
+    # build updated storyboard lines of entire file
+    lines = header
+    for row in table:
+        lines.append(row.build())
+    
+    # write file
+    write_f(path, lines)
+
+
+def gen_story(i, o, dir):
+    """Generates a markdown storyboard telmplate file based on the input
+    VO script
+
+    :param i: str() - path to input VO script
+    :param o: - str() - path of output storyboard file
+    :param dir: - str() - working directory for building img links
+    """
+    write_f(o, build_story(read_f(i), dir))
+
+
+# HELPER FUNCTIONS
 
 
 def build_sentence(words):
+    """Build a sentence from list of words
+
+    :param words: list( str(), ... ) - list of word strings
+    :return: None
+    """
     sentence = ''
     for i, word in enumerate(words):
         sentence += word
@@ -42,20 +149,39 @@ def build_sentence(words):
             sentence += ' '
     return sentence
 
-def readf(path):
+
+def read_f(path):
+    """Read file from path
+
+    :param path: str() - file path to read.
+    :return: None
+    """
     with open(path, "r") as f:
         return f.readlines()
 
 
-def writef(path, lines):
+def write_f(path, lines):
+    """Write file to path from list of lines.
+
+    :param path: str() - file path to write.
+    :param lines: list( str(), ... ) - list of lines to write.
+    :return: None
+    """
     with open(path, "w") as f:
         for line in lines:
             f.write(line)
 
 
-def buildStory(lines, dir):
+def build_story(lines, dir):
+    """Generates a _storyboard.md based on
+    an input _vo.md
+
+    :param lines: list( str(), ... ) - _vo.md lines
+    :param dir: str() - working directory
+    :return: list( str(), ... ) - _story.md lines
+    """
     skip = ['#', '`', '*', '\n', ' ']
-    storyLines = [ lines[0],
+    story_lines = [ lines[0],
                    '###Storyboard\n',
                    '**Estimated Runtime:**\n',
                    '\n',
@@ -67,86 +193,41 @@ def buildStory(lines, dir):
         if line[0] in skip:
             pass
         else:
-            storyLines.append(
-                '{} | ![shot {}](../{}/img/shot_{}.svg) |  | {} | \n'.format(i,
-                                                                            i,
-                                                                            dir,
-                                                                            i,
-                                                                            line[:-1]
-                                                                           )
+            story_lines.append(
+                '{} | ![shot {}](../{}/img/shot_{}.svg) |  | {} | \n'.format
+                (i, i, dir, i, line[:-1])
             )
             i += 1
-    return storyLines
+    return story_lines
 
-def get_storyboard(fpath):
-    lines = readf(fpath)
+
+def parse_story(path):
+    """Parses _storyboard.md file into a list of hearder lines and
+    andother list of table rows as Row objects
+
+    :param path: str()
+    :return: list( str(), ... ), list( Row(), ... )
+    """
+    lines = read_f(path)
     header = lines[:6]
-    tableLines = lines[6:]
-    #print(tableLines)
+    table_lines = lines[6:]
+    #print(table_lines)
     table = []
-    for line in tableLines:
+    for line in table_lines:
         table.append(Row(line.split('|')))
     return header, table
 
 
-##############################################
-# main functions
-##############################################
 
-def checkDir():
-    dir = readf('./mdh.conf')[0].replace('\n', '')
-    if dir == '':
-        print('working directory not set! Set with [dir].')
-        exit()
-    else:
-        return dir
+# ARG PARSING
 
-
-def setDir(dir):
-    if os.path.isdir('./{}'.format(dir)):
-        writef('./mdh.conf', [dir])
-    else:
-        print('Subdirectory ./{} does not exist!'.format(dir))
-
-
-# splits specified storyboard row into two and writes updated storyboard file.
-#
-# fpath : file to be edited - Str()
-# rowId : shot# to be split - Int()
-# text : text to determine where to split VO String() - Str()
-#
-# returns : None
-def splitRow(fpath, rowId, text):
-    header, table = get_storyboard(fpath)
-    newVo = table[rowId-1].split(text)
-    newRow = copy.copy(table[rowId-1])
-    newRow.vo = newVo
-    table.insert(rowId, newRow)
-
-    i = rowId
-    while rowId <= i < len(table):
-        table[i].increment()
-        i += 1
-
-    lines = header
-    for row in table:
-        lines.append(row.build())
-    writef(fpath, lines)
-
-# Generates a markdown storyboard template file based on the input VO script.
-#
-# i : path to vo script
-# o : path of storyboard file to output
-# dir : containing directory name for img links
-def generateStory(i, o, dir):
-    writef(o, buildStory(readf(i), dir))
-
-
-##############################################
-# arg parsing
-##############################################
 
 def confirm(x):
+    """determine if user confimed change or not
+
+    :param x: str()
+    :return: bool()
+    """
     if x.lower() == 'y':
         return True
     else:
@@ -154,31 +235,36 @@ def confirm(x):
         exit()
 
 
-def parseArgs():
-    xargs = ['build', 'split', 'dir', 'dir?']
-    iargs = sys.argv[1:]
+def parse_args():
+    """Parse input user args
+    
+    :return: None
+    """
+    x_args = ['build', 'split', 'dir', 'dir?']
+    i_args = sys.argv[1:]
 
-    if iargs[0] not in xargs:
+    if i_args[0] not in x_args:
         print('Unknown command. Use [build], [split], or [dir(?)]')
     else:
-        if iargs[0] == 'dir':
-            setDir(iargs[1])
-        elif iargs[0] == 'dir?':
-            dir = checkDir()
+        if i_args[0] == 'dir':
+            set_dir(i_args[1])
+        elif i_args[0] == 'dir?':
+            dir = check_dir()
             print('working dicrectory: ./{}'.format(dir))
-        dir = checkDir()
-        if iargs[0] == 'build':
+        dir = check_dir()
+        if i_args[0] == 'build':
             i = './{}/{}_vo.md'.format(dir, dir)
             o = './{}/{}_storyboard.md'.format(dir, dir)
             if confirm(input('create {} from {}? Y/n: '.format(o, i))):
-                generateStory(i, o, dir)
-        elif iargs[0] == 'split':
-            rowId = int(iargs[1])
-            text = iargs[2:]
+                gen_story(i, o, dir)
+        elif i_args[0] == 'split':
+            row_id = int(i_args[1])
+            text = i_args[2:]
             i = './{}/{}_storyboard.md'.format(dir, dir)
-            if confirm(input('split row {} in storyboard {} at "{}"? Y/n: '.format(rowId, i, text[0]))):
-                splitRow(i, rowId, text)
+            if confirm(input('split row {} in storyboard {} at "{}"? Y/n: '.format(
+                    row_id, i, text[0]))):
+                split_row(i, row_id, text)
 
 
 if __name__ == '__main__':
-    parseArgs()
+    parse_args()
