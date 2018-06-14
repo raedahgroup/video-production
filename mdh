@@ -279,8 +279,9 @@ def parse_args():
         if i_args[0] == 'build':
             i = './{}/{}_vo.md'.format(dir, dir)
             o = './{}/{}_storyboard.md'.format(dir, dir)
-            if confirm(input('create {} from {}? Y/n: '.format(o, i))):
-                gen_story(i, o, dir)
+            if os.path.isfile(o):
+                confirm(input('{} Already Exists! overwrite? Y/n: '.format(o, i)))
+            gen_story(i, o, dir)
         elif i_args[0] == 'split':
             img = False
             row_id = int(i_args[1])
