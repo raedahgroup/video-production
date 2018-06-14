@@ -58,7 +58,14 @@ class Row(object):
         self.img = ' ![shot {}](../{}/img/shot_{}.svg) '.format(
             self.i, self.img.split('/')[1], self.i)
 
+    def rename_img(self):
+        """increments img filename in ./{workdir}/img/
 
+        :return: None
+        """
+        f = self.img.split('(')[1].split(')')[0]
+        os.rename(os.path.abspath(f[1:].replace(str(self.i), str(self.i-1))),
+                  os.path.abspath(f[1:]))
 
 
 # MAIN FUNCTIONS
@@ -91,7 +98,7 @@ def set_dir(dir):
         print('Subdirectory ./{} does not exist!'.format(dir))
 
 
-def split_row(path, row_id, text):
+def split_row(path, row_id, text, img=False):
     """Splits specified storyboard row into two,
     writes updated storyboard file, and renames
     svg files in ./{workingDir}/img/ if they exist
@@ -99,8 +106,19 @@ def split_row(path, row_id, text):
     :param path: str() - file path to be edited
     :param row_id: int() - row # to be split
     :param text: list( str(), ... ) - text to determine where to split VO string
+    :param img: bool() - whether or not to refactor storyboard img directory.
     :return: None
     """
+
+    def refactor_img():
+        """increment storyboard svg file names
+
+        :return: None
+        """
+        for r in reversed(table[row_id+1:]):
+            r.rename_img()
+        return None
+
     header, table = parse_story(path)
     new_vo = table[row_id-1].split(text)
     new_row = copy.copy(table[row_id-1])
@@ -120,6 +138,8 @@ def split_row(path, row_id, text):
     
     # write file
     write_f(path, lines)
+    if img:
+        refactor_img()
 
 
 def gen_story(i, o, dir):
@@ -135,7 +155,7 @@ def gen_story(i, o, dir):
 
     # check and create storyboard /img dir
     if not os.path.isdir('./{}/img'.format(dir)):
-        os.mkdirs('./{}/img'.format(dir))
+        os.mkdir('./{}/img'.format(dir))
 
 
 # HELPER FUNCTIONS
@@ -222,9 +242,6 @@ def parse_story(path):
         table.append(Row(line.split('|')))
     return header, table
 
-def refactor_img(dir):
-    return None
-
 
 # ARG PARSING
 
@@ -276,9 +293,10 @@ def parse_args():
             i = './{}/{}_storyboard.md'.format(dir, dir)
             if confirm(input('split row {} in storyboard {} at "{}"? Y/n: '.format(
                     row_id, i, text))):
-                split_row(i, row_id, text)
                 if img:
-                    refactor_img(dir)
+                    split_row(i, row_id, text, img=True)
+                else:
+                    split_row(i, row_id, text)
 
 
 if __name__ == '__main__':
