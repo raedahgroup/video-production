@@ -1,10 +1,52 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
+"""Markdown Helper
+
+this script aids in the creation and
+editing of storyboards as markdown files.
+
+Usage:
+    pass command line arguments from root directory of repo:
+
+        ./mdh {command} {args ...}
+
+Commands:
+    dir {workdir}
+        - sets the directory you want to work in.
+
+    dir?
+        - returns the name of the current working directory.
+
+    build
+        - builds a _storyboard.md template from the _vo.md in the working directory
+
+    split {rowid} {text ...} {--img}(optional)
+        - splits a row in the _storyboard.md in working directory
+        after the sequence of given VO {text ...}. If --img flag is set then
+        the names of the storyboard .svg files will be refactored.
+
+Examples:
+    ./mdh dir decredPoliteia
+        - sets ./decredpoliteia as working directory
+
+    ./mdh dir?
+        - prints "./decredPoliteia"
+
+    ./mdh build
+        - creates decredPoliteia_storyboard.svg using decredPoliteia_vo.md as input.
+        Also creates ./decredPoliteia/img/ if it doesnt already exist.
+
+    ./mdh split 3 proposal system --img
+        - splits row 3 of decredPoliteia_storyboard.md moving the voice over text after
+        "proposal system" to a new row 4 and increments the original
+        row 4 to row 5 etc... and refactors .svg file names.
+"""
 
 
 import copy
 import os
 import sys
+
 
 class Row(object):
     """Object representing one row in a _storyboard.md file.
