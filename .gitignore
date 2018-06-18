@@ -1,2 +1,3 @@
 # ignore markdown helper config file
 mdh.conf
+/test/*
