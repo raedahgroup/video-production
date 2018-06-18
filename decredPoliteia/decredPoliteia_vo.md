@@ -1,30 +1,34 @@
 ## Decred in Depth: Politeia
 ### Voice Over
 
-### Keywords
-`proposal`, `Timestamped`, `versioned`, `self-governance`, `immutable`, `off-chain storage`, `git`, `chain-anchored`
+Named after the greek term meaning ‘a system of government’, Politeia is the Decred proposal system: a chain-anchored social media application where stakeholders decide which projects recieve funding from the network fund. 
 
-Named after the greek term meaning ‘a system of government’, Politeia is the Decred proposal system: a chain-anchored social media application where Decred stakeholders can take part in deciding which Decred improvement projects recieve funding from the development fund. 
+Decreds' governance data hosted on Politeia is made up of submitted project proposals, comments, and votes. 
 
-Submitted project proposals, proposal comments, and votes make up Decred's governance data hosted on Politeia. Newly submitted content is episodically anchored to the Decred blockchain creating an immutable and cryptographically verifiable public record of Decred's governance data. Once a proposal is posted to Politeia, the record of its posting can never be altered or deleted, nor can proposals be forged. 
+This user sourced data is episodically anchored to the Decred blockchain creating an immutable and cryptographically verifiable public record of Decred governance. 
 
-Anchoring Politeia to the blockchain ensures that attempts to manipulate Decred's governance are significantly more difficult than if a traditional website or social media application were in use.
+This means the data stored in Politeia can never be altered, deleted, or forged, ensuring that attempts to manipulate Decred's governance are significantly more difficult than if a traditional website or social media application were in use.
 
-To achieve this chain-anchoring, Politeia's off-chain storage system makes use of Git (a popular revision control system), and DecredTime (a custom server application for storing timestamps on the Decred blockchain.)
+To achieve this, Politeia's off-chain storage system makes use of Git (a popular revision control system), and DecredTime (a custom server application for storing timestamps on the Decred blockchain.)
 
-Git tracks, hashes, and stores changes to Decred's governance data as revisions to create a historic record of every change to the data stored on Politeia. These revisions are then anchored to the Decred blockchain through DecredTime to construct a time sequence of data revisions that is computationally impossible to recreate.
+Git is utilized to create a historic record of every change to the data stored on Politeia. All revisions recorded by git are anchored to the Decred blockchain through DecredTime. This git plus timestamping equation results in a time sequence of data revisions that is computationally impossible to recreate.
 
-In order to enforce proposal quality standards and limit the amount of on-chain storage required, proposals submitted through Politeia must be manually reviewed by a human.
+On the front end, the Politeia GUI provides a easy to use web-based interface for stakeholders to submit project proposals, comments, and votes.
 
-In a system where humans must moderate content, censorship is likely to occur. However, content on Politeia cannot be silently censored thanks to a transparent review process made possible by tokens.
+In order to limit the amount of on-chain storage required, low quality proposals and spam posts will be weeded out through a human review process.
 
-Once a user sumbmits a proposal on Politeia for review, they receive a censorship token. After their proposal has been reviewed and deemed in adherence with guidelines, it becomes available for public consideration. Once a proposal becomes public, its corresponding censorship token becomes invalid. However, if a stakeholder's proposal is rejected, their censorship token remains valid and can be used publicly prove that their proposal was censored. The use of censorship tokens in this manner allows stakeholders to hold human administrators publicly responsible for their actions when found to be acting inappropriately.
+In a system where humans must moderate content, censorship is likely to occur. Although censorship cannot be completely eliminated, Politeia is built to be censorship resistant. 
 
-Politeia is the ideal crytptographically verifiable and censorship resistant platform for self-governance. 
+Unlike with many traditional social media applications, content on Politeia cannot be silently censored. By utilizing tokens called censorship tokens in the review process, those unfairly censored are given a means of recorse.
 
-To submit your own project proposal through Politeia, head to decred.org to download the software for your platform and buy Decred on exchanges listed at _decred.org/?_.
+It works like this. Once a user submits a proposal for review, they receive a censorship token. After their proposal has been reviewed and deemed in adherence with guidelines, it becomes available for public consideration. Once a proposal becomes public, its corresponding censorship token becomes invalid. 
 
-Decred; Decentralized Credits.
+If a stakeholder's proposal is rejected, then their censorship token remains valid and can be used to prove that their proposal was censored and identify the administrator responsible. 
 
+The use of censorship tokens in this manner allows stakeholders to hold administrators publicly responsible for their actions when found to be acting inappropriately.
 
- 	
+Crytptographically verifiable and censorship resistant, Politeia is the ideal platform for self-governance. 
+
+To submit your own project proposal through Politeia, download Decrediton at decred.org and buy Decred on one of the many supporting exchanges
+
+Decred; Decentralized Credit.
