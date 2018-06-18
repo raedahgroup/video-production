@@ -97,8 +97,7 @@ class Row(object):
         ":return: None
         """
         self.i = self.i+1
-        self.img = ' ![shot {}](../{}/img/shot_{}.svg) '.format(
-            self.i, self.img.split('/')[1], self.i)
+        self.img = self.img.replace(str(self.i-1), str(self.i))
 
     def rename_img(self):
         """increments img filename in ./{workdir}/img/
@@ -140,7 +139,7 @@ def set_dir(dir):
         print('Subdirectory ./{} does not exist!'.format(dir))
 
 
-def split_row(path, row_id, text, img=False):
+def split_row(path, row_id, text, img):
     """Splits specified storyboard row into two,
     writes updated storyboard file, and renames
     svg files in ./{workingDir}/img/ if they exist
@@ -336,10 +335,8 @@ def parse_args():
             i = './{}/{}_storyboard.md'.format(dir, dir)
             if confirm(input('split row {} in storyboard {} at "{}"? Y/n: '.format(
                     row_id, i, text))):
-                if img:
-                    split_row(i, row_id, text, img=True)
-                else:
-                    split_row(i, row_id, text)
+                split_row(i, row_id, text, img)
+
 
 
 if __name__ == '__main__':
