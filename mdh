@@ -51,8 +51,8 @@ import sys
 class Row(object):
     """Object representing one row in a _storyboard.md file.
 
-    Cosntructed based on a list of strings representing
-    table rows written in markdown.
+    Constructed based on a list of strings representing
+    cells of a row.
     """
 
     def __init__(self, row=list()):
@@ -220,7 +220,7 @@ def read_f(path):
     """Read file from path
 
     :param path: str() - file path to read.
-    :return: None
+    :return: list( str(), ...) - list of strings representing each line of file
     """
     with open(path, "r") as f:
         return f.readlines()
