@@ -5,8 +5,6 @@
 ### Pre-Production
 
 - [ ] Research
-- [ ] Script Early
-- [ ] Storyboard Early
 - [ ] Script Final
 - [ ] Storyboard Final
 
@@ -20,16 +18,10 @@
 ### Post-Production
 
 - [ ] Assembly
-- [ ] Rough Cut
 - [ ] Picture Lock
-- [ ] Audio Edit Rough
 - [ ] Audio Edit Final
 
 ### Release
 
-- [ ] Compress
-- [ ] Upload
-- [ ] Description
-- [ ] Annotations
-- [ ] Make Public
-
+- [ ] Uploaded
+- [ ] Public
