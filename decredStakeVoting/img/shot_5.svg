@@ -16,7 +16,7 @@
    version="1.1"
    id="svg2052"
    inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
-   sodipodi:docname="shot_4.svg"
+   sodipodi:docname="shot_5.svg"
    inkscape:export-filename="Z:\exports\shot2.png"
    inkscape:export-xdpi="12.488494"
    inkscape:export-ydpi="12.488494">
@@ -1031,9 +1031,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.0896626"
-     inkscape:cx="266.83774"
-     inkscape:cy="116.02334"
+     inkscape:zoom="0.7705078"
+     inkscape:cx="123.59924"
+     inkscape:cy="33.72032"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="true"
@@ -1042,8 +1042,8 @@
      borderlayer="true"
      inkscape:window-width="1278"
      inkscape:window-height="991"
-     inkscape:window-x="1272"
-     inkscape:window-y="0"
+     inkscape:window-x="755"
+     inkscape:window-y="26"
      inkscape:window-maximized="0"
      inkscape:snap-global="false">
     <inkscape:grid
@@ -1062,7 +1062,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
         <cc:license
            rdf:resource="http://artlibre.org/licence/lal" />
       </cc:Work>
@@ -1548,57 +1548,49 @@
        id="circle4397"
        style="fill:#0c1e3e;fill-opacity:1;stroke:none;stroke-width:1.35105681;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <circle
-       r="12.784805"
-       cy="256.0127"
-       cx="65.90567"
+       r="15.577531"
+       cy="260.89069"
+       cx="65.367592"
        id="circle4422"
-       style="fill:#0c1e3e;fill-opacity:1;stroke:none;stroke-width:1.63681948;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="fill:#0c1e3e;fill-opacity:1;stroke:none;stroke-width:1.99436796;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <circle
-       style="fill:#0c1e3e;fill-opacity:1;stroke:none;stroke-width:1.55026841;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#0c1e3e;fill-opacity:1;stroke:none;stroke-width:1.88891065;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="circle4399"
-       cx="65.90567"
-       cy="255.74661"
-       r="12.108774" />
-    <g
-       id="g1268"
-       transform="translate(0.59172293,-7.7206511)">
-      <path
-         style="fill:#09182d;fill-opacity:0"
-         inkscape:connector-curvature="0"
-         id="path16924"
-         clip-path="url(#SVGID_2_)"
-         d="m -376,-272.9 h 36 v 0 h 1 l 5.8,-8.6 h -8.6 v 4.3 h -8 c -1.4,-2 -3.7,-3.4 -6.3,-3.4 -2.6,0 -5,1.4 -6.3,3.4 h -8 v -4.3 h -2.9 l -5.8,8.6 z"
-         class="st5"
-         transform="matrix(1.1051942,0.04694648,-0.04694648,1.1051942,446.15546,593.45)" />
-      <g
-         transform="matrix(2.4555906,0,0,2.4555906,-94.692469,-368.41544)"
-         id="g2689">
-        <path
-           style="fill:#f3f6f6;fill-opacity:1"
-           inkscape:connector-curvature="0"
-           id="path310"
-           clip-path="url(#SVGID_2_)"
-           d="m -376,-272.9 h 36 v 0 h 1 l 5.8,-8.6 h -8.6 v 4.3 h -8 c -1.4,-2 -3.7,-3.4 -6.3,-3.4 -2.6,0 -5,1.4 -6.3,3.4 h -8 v -4.3 h -2.9 l -5.8,8.6 z"
-           class="st5"
-           transform="matrix(0.32411392,0.01376772,-0.01376772,0.32411392,177.23225,353.13218)" />
-        <path
-           transform="matrix(0.32411392,0.01376772,-0.01376772,0.32411392,177.23225,353.13218)"
-           class="st6"
-           d="m -356.2,-301.6 c 4.7,0 8.6,3.8 8.6,8.6 0,4.7 -3.8,8.6 -8.6,8.6 -4.7,0 -8.6,-3.8 -8.6,-8.6 0,-4.7 3.9,-8.6 8.6,-8.6 m -6.3,24.3 c 1.4,-2 3.7,-3.4 6.3,-3.4 2.6,0 5,1.4 6.3,3.4 h 8 v -4.3 0 -31.6 h -6.7 c 0,0 0,0 0,0 0,4.2 -3.4,7.7 -7.6,7.7 -4.2,0 -7.7,-3.4 -7.7,-7.7 0,0 0,0 0,0 h -6.7 v 31.6 0 4.3 z"
-           clip-path="url(#SVGID_2_)"
-           id="path16926"
-           inkscape:connector-curvature="0"
-           style="fill:#2252a3;fill-opacity:1" />
-        <path
-           transform="matrix(0.32411392,0.01376772,-0.01376772,0.32411392,177.23225,353.13218)"
-           class="st5"
-           d="m -356.2,-284.4 c 4.7,0 8.6,-3.8 8.6,-8.6 0,-4.7 -3.8,-8.6 -8.6,-8.6 -4.7,0 -8.6,3.8 -8.6,8.6 0,4.7 3.9,8.6 8.6,8.6"
-           clip-path="url(#SVGID_2_)"
-           id="path16928"
-           inkscape:connector-curvature="0"
-           style="fill:#f3f6f6;fill-opacity:1" />
-      </g>
-    </g>
+       cx="65.367592"
+       cy="260.5665"
+       r="14.753827" />
+    <path
+       transform="matrix(1.3466139,0.05720152,-0.05720152,1.3466139,529.4005,662.63099)"
+       class="st5"
+       d="m -376,-272.9 h 36 v 0 h 1 l 5.8,-8.6 h -8.6 v 4.3 h -8 c -1.4,-2 -3.7,-3.4 -6.3,-3.4 -2.6,0 -5,1.4 -6.3,3.4 h -8 v -4.3 h -2.9 l -5.8,8.6 z"
+       clip-path="url(#SVGID_2_)"
+       id="path16924"
+       inkscape:connector-curvature="0"
+       style="fill:#09182d;fill-opacity:0" />
+    <path
+       style="fill:#8997a5;fill-opacity:1"
+       inkscape:connector-curvature="0"
+       id="path310"
+       clip-path="url(#SVGID_2_)"
+       d="m -376,-272.9 h 36 v 0 h 1 l 5.8,-8.6 h -8.6 v 4.3 h -8 c -1.4,-2 -3.7,-3.4 -6.3,-3.4 -2.6,0 -5,1.4 -6.3,3.4 h -8 v -4.3 h -2.9 l -5.8,8.6 z"
+       class="st5"
+       transform="matrix(0.96522462,0.04228069,-0.04100083,0.99535451,399.02496,554.58068)" />
+    <path
+       transform="matrix(0.96974635,0.04136219,-0.04119291,0.97373153,400.68673,548.53435)"
+       class="st6"
+       d="m -356.2,-301.6 c 4.7,0 8.6,3.8 8.6,8.6 0,4.7 -3.8,8.6 -8.6,8.6 -4.7,0 -8.6,-3.8 -8.6,-8.6 0,-4.7 3.9,-8.6 8.6,-8.6 m -6.3,24.3 c 1.4,-2 3.7,-3.4 6.3,-3.4 2.6,0 5,1.4 6.3,3.4 h 8 v -4.3 0 -31.6 h -6.7 c 0,0 0,0 0,0 0,4.2 -3.4,7.7 -7.6,7.7 -4.2,0 -7.7,-3.4 -7.7,-7.7 0,0 0,0 0,0 h -6.7 v 31.6 0 4.3 z"
+       clip-path="url(#SVGID_2_)"
+       id="path16926"
+       inkscape:connector-curvature="0"
+       style="fill:#f1f2f4;fill-opacity:1" />
+    <path
+       transform="matrix(0.9955242,0.0430373,-0.0422879,1.0131661,409.54796,560.75033)"
+       class="st5"
+       d="m -356.2,-284.4 c 4.7,0 8.6,-3.8 8.6,-8.6 0,-4.7 -3.8,-8.6 -8.6,-8.6 -4.7,0 -8.6,3.8 -8.6,8.6 0,4.7 3.9,8.6 8.6,8.6"
+       clip-path="url(#SVGID_2_)"
+       id="path16928"
+       inkscape:connector-curvature="0"
+       style="fill:#8997a5;fill-opacity:1" />
   </g>
   <g
      inkscape:groupmode="layer"
