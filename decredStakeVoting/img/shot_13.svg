@@ -1164,6 +1164,17 @@
          x="64.814537"
          y="22.360477" />
     </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1521">
+      <rect
+         style="display:inline;fill:#ffffff;fill-opacity:1;stroke-width:1.2712487"
+         id="rect1523"
+         x="5062.2583"
+         y="593.45801"
+         width="748.86981"
+         height="728.12976" />
+    </clipPath>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -1172,9 +1183,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.0896626"
-     inkscape:cx="-303.91485"
-     inkscape:cy="264.50464"
+     inkscape:zoom="4.3586504"
+     inkscape:cx="197.32771"
+     inkscape:cy="68.715386"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="true"
@@ -1903,12 +1914,12 @@
     <g
        id="XMLID_4066_"
        transform="matrix(0.00889484,0,0,0.00889484,67.125861,180.82235)"
-       style="fill:#8997a5;fill-opacity:1">
+       style="fill:#c4cbd2;fill-opacity:1">
       <path
          id="path2616"
          d="m 1633.666,5240.41 c -1.179,0 -2.371,-0.336 -3.426,-1.04 L 887.881,4744.46 c -2.843,-1.895 -3.612,-5.737 -1.716,-8.579 1.896,-2.842 5.737,-3.613 8.579,-1.716 l 742.359,494.91 c 2.843,1.895 3.611,5.737 1.716,8.579 -1.191,1.789 -3.154,2.756 -5.153,2.756 z"
          inkscape:connector-curvature="0"
-         style="fill:#8997a5;fill-opacity:1" />
+         style="fill:#c4cbd2;fill-opacity:1" />
     </g>
     <g
        id="XMLID_4065_"
@@ -1924,9 +1935,9 @@
     <g
        id="XMLID_4064_"
        transform="matrix(0.00889484,0,0,0.00889484,67.125861,180.82235)"
-       style="fill:#8997a5;fill-opacity:1">
+       style="fill:#c4cbd2;fill-opacity:1">
       <path
-         style="fill:#8997a5;fill-opacity:1"
+         style="fill:#c4cbd2;fill-opacity:1"
          inkscape:connector-curvature="0"
          d="m 891.313,4762.512 c -21.619,0 -39.785,-14.787 -44.936,-34.798 -0.954,3.708 -1.462,7.594 -1.462,11.6 0,25.625 20.773,46.397 46.397,46.397 25.625,0 46.397,-20.773 46.397,-46.397 0,-4.005 -0.508,-7.892 -1.462,-11.6 -5.149,20.011 -23.315,34.798 -44.934,34.798 z"
          id="path2622" />
@@ -1945,9 +1956,9 @@
     <g
        id="XMLID_4061_"
        transform="matrix(0.00889484,0,0,0.00889484,67.125861,180.82235)"
-       style="fill:#8997a5;fill-opacity:1">
+       style="fill:#c4cbd2;fill-opacity:1">
       <path
-         style="fill:#8997a5;fill-opacity:1"
+         style="fill:#c4cbd2;fill-opacity:1"
          inkscape:connector-curvature="0"
          d="m 1633.672,5257.422 c -21.619,0 -39.785,-14.786 -44.936,-34.798 -0.954,3.708 -1.462,7.594 -1.462,11.599 0,25.625 20.773,46.397 46.397,46.397 25.625,0 46.397,-20.772 46.397,-46.397 0,-4.005 -0.508,-7.892 -1.462,-11.599 -5.15,20.012 -23.315,34.798 -44.934,34.798 z"
          id="path2629" />
@@ -1955,12 +1966,12 @@
     <g
        id="XMLID_4059_"
        transform="matrix(0.00889484,0,0,0.00889484,67.125861,180.82235)"
-       style="fill:#8997a5;fill-opacity:1">
+       style="fill:#c4cbd2;fill-opacity:1">
       <path
          id="path2633"
          d="m 893.33,5240.41 c -2,0 -3.961,-0.967 -5.153,-2.755 -1.896,-2.842 -1.127,-6.684 1.716,-8.579 l 742.359,-494.91 c 2.844,-1.897 6.684,-1.126 8.579,1.716 1.896,2.842 1.127,6.684 -1.716,8.579 l -742.359,494.91 c -1.056,0.703 -2.247,1.039 -3.426,1.039 z"
          inkscape:connector-curvature="0"
-         style="fill:#8997a5;fill-opacity:1" />
+         style="fill:#c4cbd2;fill-opacity:1" />
     </g>
     <g
        id="XMLID_4058_"
@@ -1976,9 +1987,9 @@
     <g
        id="XMLID_4057_"
        transform="matrix(0.00889484,0,0,0.00889484,67.125861,180.82235)"
-       style="fill:#8997a5;fill-opacity:1">
+       style="fill:#c4cbd2;fill-opacity:1">
       <path
-         style="fill:#8997a5;fill-opacity:1"
+         style="fill:#c4cbd2;fill-opacity:1"
          inkscape:connector-curvature="0"
          d="m 1633.672,4762.512 c 21.619,0 39.785,-14.787 44.936,-34.798 0.954,3.708 1.462,7.594 1.462,11.6 0,25.625 -20.773,46.397 -46.397,46.397 -25.625,0 -46.397,-20.773 -46.397,-46.397 0,-4.005 0.508,-7.892 1.462,-11.6 5.149,20.011 23.314,34.798 44.934,34.798 z"
          id="path2639" />
@@ -1997,9 +2008,9 @@
     <g
        id="XMLID_4049_"
        transform="matrix(0.00889484,0,0,0.00889484,67.125861,180.82235)"
-       style="fill:#8997a5;fill-opacity:1">
+       style="fill:#c4cbd2;fill-opacity:1">
       <path
-         style="fill:#8997a5;fill-opacity:1"
+         style="fill:#c4cbd2;fill-opacity:1"
          inkscape:connector-curvature="0"
          d="m 891.313,5257.422 c 21.619,0 39.785,-14.786 44.936,-34.798 0.954,3.708 1.462,7.594 1.462,11.599 0,25.625 -20.773,46.397 -46.397,46.397 -25.625,0 -46.397,-20.772 -46.397,-46.397 0,-4.005 0.508,-7.892 1.462,-11.599 5.149,20.012 23.315,34.798 44.934,34.798 z"
          id="path2646" />
@@ -2007,12 +2018,12 @@
     <g
        id="XMLID_4047_"
        transform="matrix(0.00889484,0,0,0.00889484,67.125861,180.82235)"
-       style="fill:#8997a5;fill-opacity:1">
+       style="fill:#c4cbd2;fill-opacity:1">
       <path
          id="path2650"
          d="M 1695.535,4992.955 H 833.202 c -3.417,0 -6.186,-2.769 -6.186,-6.186 0,-3.417 2.769,-6.187 6.186,-6.187 h 862.333 c 3.417,0 6.186,2.77 6.186,6.187 0,3.417 -2.769,6.186 -6.186,6.186 z"
          inkscape:connector-curvature="0"
-         style="fill:#8997a5;fill-opacity:1" />
+         style="fill:#c4cbd2;fill-opacity:1" />
     </g>
     <g
        id="XMLID_4045_"
@@ -2028,9 +2039,9 @@
     <g
        id="XMLID_4044_"
        transform="matrix(0.00889484,0,0,0.00889484,67.125861,180.82235)"
-       style="fill:#8997a5;fill-opacity:1">
+       style="fill:#c4cbd2;fill-opacity:1">
       <path
-         style="fill:#8997a5;fill-opacity:1"
+         style="fill:#c4cbd2;fill-opacity:1"
          inkscape:connector-curvature="0"
          d="m 829.45,5009.967 c -21.619,0 -39.785,-14.787 -44.936,-34.798 -0.954,3.707 -1.462,7.594 -1.462,11.599 0,25.625 20.773,46.397 46.397,46.397 25.625,0 46.397,-20.773 46.397,-46.397 0,-4.005 -0.508,-7.892 -1.462,-11.599 -5.149,20.011 -23.315,34.798 -44.934,34.798 z"
          id="path2656" />
@@ -2049,9 +2060,9 @@
     <g
        id="XMLID_4041_"
        transform="matrix(0.00889484,0,0,0.00889484,67.125861,180.82235)"
-       style="fill:#8997a5;fill-opacity:1">
+       style="fill:#c4cbd2;fill-opacity:1">
       <path
-         style="fill:#8997a5;fill-opacity:1"
+         style="fill:#c4cbd2;fill-opacity:1"
          inkscape:connector-curvature="0"
          d="m 1695.535,5009.967 c -21.619,0 -39.785,-14.787 -44.936,-34.798 -0.954,3.707 -1.462,7.594 -1.462,11.599 0,25.625 20.773,46.397 46.397,46.397 25.624,0 46.397,-20.773 46.397,-46.397 0,-4.005 -0.508,-7.892 -1.462,-11.599 -5.149,20.011 -23.315,34.798 -44.934,34.798 z"
          id="path2663" />
@@ -2059,12 +2070,12 @@
     <g
        id="XMLID_3999_"
        transform="matrix(0.00889484,0,0,0.00889484,67.125861,180.82235)"
-       style="fill:#8997a5;fill-opacity:1">
+       style="fill:#c4cbd2;fill-opacity:1">
       <g
          id="XMLID_4017_"
-         style="fill:#8997a5;fill-opacity:1">
+         style="fill:#c4cbd2;fill-opacity:1">
         <rect
-           style="fill:#8997a5;fill-opacity:1"
+           style="fill:#c4cbd2;fill-opacity:1"
            x="1001.184"
            y="4655.938"
            width="498.66299"
@@ -2073,9 +2084,9 @@
       </g>
       <g
          id="XMLID_4012_"
-         style="fill:#8997a5;fill-opacity:1">
+         style="fill:#c4cbd2;fill-opacity:1">
         <rect
-           style="fill:#8997a5;fill-opacity:1"
+           style="fill:#c4cbd2;fill-opacity:1"
            x="1305.923"
            y="5209.604"
            width="138.51801"
@@ -2084,9 +2095,9 @@
       </g>
       <g
          id="XMLID_4011_"
-         style="fill:#8997a5;fill-opacity:1">
+         style="fill:#c4cbd2;fill-opacity:1">
         <rect
-           style="fill:#8997a5;fill-opacity:1"
+           style="fill:#c4cbd2;fill-opacity:1"
            x="1056.894"
            y="5209.604"
            width="138.215"
@@ -2095,9 +2106,9 @@
       </g>
       <g
          id="XMLID_4005_"
-         style="fill:#8997a5;fill-opacity:1">
+         style="fill:#c4cbd2;fill-opacity:1">
         <rect
-           style="fill:#8997a5;fill-opacity:1"
+           style="fill:#c4cbd2;fill-opacity:1"
            x="1056.894"
            y="5071.4932"
            width="387.547"
@@ -2106,9 +2117,9 @@
       </g>
       <g
          id="XMLID_4004_"
-         style="fill:#8997a5;fill-opacity:1">
+         style="fill:#c4cbd2;fill-opacity:1">
         <rect
-           style="fill:#8997a5;fill-opacity:1"
+           style="fill:#c4cbd2;fill-opacity:1"
            x="1056.894"
            y="5016.085"
            width="387.547"
@@ -2117,9 +2128,9 @@
       </g>
       <g
          id="XMLID_4003_"
-         style="fill:#8997a5;fill-opacity:1">
+         style="fill:#c4cbd2;fill-opacity:1">
         <rect
-           style="fill:#8997a5;fill-opacity:1"
+           style="fill:#c4cbd2;fill-opacity:1"
            x="1056.894"
            y="4960.6792"
            width="387.547"
@@ -2128,9 +2139,9 @@
       </g>
       <g
          id="XMLID_4002_"
-         style="fill:#8997a5;fill-opacity:1">
+         style="fill:#c4cbd2;fill-opacity:1">
         <rect
-           style="fill:#8997a5;fill-opacity:1"
+           style="fill:#c4cbd2;fill-opacity:1"
            x="1056.894"
            y="4905.271"
            width="387.547"
@@ -2139,9 +2150,9 @@
       </g>
       <g
          id="XMLID_4001_"
-         style="fill:#8997a5;fill-opacity:1">
+         style="fill:#c4cbd2;fill-opacity:1">
         <rect
-           style="fill:#8997a5;fill-opacity:1"
+           style="fill:#c4cbd2;fill-opacity:1"
            x="1056.894"
            y="4849.8652"
            width="387.547"
@@ -2150,9 +2161,9 @@
       </g>
       <g
          id="XMLID_4000_"
-         style="fill:#8997a5;fill-opacity:1">
+         style="fill:#c4cbd2;fill-opacity:1">
         <rect
-           style="fill:#8997a5;fill-opacity:1"
+           style="fill:#c4cbd2;fill-opacity:1"
            x="1056.894"
            y="4739.0498"
            width="249.02901"
@@ -2175,101 +2186,101 @@
     <g
        id="XMLID_3997_"
        transform="matrix(0.00889484,0,0,0.00889484,67.125861,180.82235)"
-       style="fill:#8997a5;fill-opacity:1">
+       style="fill:#c4cbd2;fill-opacity:1">
       <rect
          id="rect2698"
          height="27.704"
          width="138.51801"
          y="5237.3081"
          x="1333.627"
-         style="fill:#8997a5;fill-opacity:1" />
+         style="fill:#c4cbd2;fill-opacity:1" />
     </g>
     <g
        id="XMLID_3996_"
        transform="matrix(0.00889484,0,0,0.00889484,67.125861,180.82235)"
-       style="fill:#8997a5;fill-opacity:1">
+       style="fill:#c4cbd2;fill-opacity:1">
       <rect
          id="rect2701"
          height="27.704"
          width="138.215"
          y="5237.3081"
          x="1084.598"
-         style="fill:#8997a5;fill-opacity:1" />
+         style="fill:#c4cbd2;fill-opacity:1" />
     </g>
     <g
        id="XMLID_3995_"
        transform="matrix(0.00889484,0,0,0.00889484,67.125861,180.82235)"
-       style="fill:#8997a5;fill-opacity:1">
+       style="fill:#c4cbd2;fill-opacity:1">
       <rect
          id="rect2704"
          height="27.704"
          width="387.547"
          y="5099.1958"
          x="1084.598"
-         style="fill:#8997a5;fill-opacity:1" />
+         style="fill:#c4cbd2;fill-opacity:1" />
     </g>
     <g
        id="XMLID_3994_"
        transform="matrix(0.00889484,0,0,0.00889484,67.125861,180.82235)"
-       style="fill:#8997a5;fill-opacity:1">
+       style="fill:#c4cbd2;fill-opacity:1">
       <rect
          id="rect2707"
          height="27.704"
          width="387.547"
          y="5043.7891"
          x="1084.598"
-         style="fill:#8997a5;fill-opacity:1" />
+         style="fill:#c4cbd2;fill-opacity:1" />
     </g>
     <g
        id="XMLID_3993_"
        transform="matrix(0.00889484,0,0,0.00889484,67.125861,180.82235)"
-       style="fill:#8997a5;fill-opacity:1">
+       style="fill:#c4cbd2;fill-opacity:1">
       <rect
          id="rect2710"
          height="27.704"
          width="387.547"
          y="4988.3818"
          x="1084.598"
-         style="fill:#8997a5;fill-opacity:1" />
+         style="fill:#c4cbd2;fill-opacity:1" />
     </g>
     <g
        id="XMLID_3992_"
        transform="matrix(0.00889484,0,0,0.00889484,67.125861,180.82235)"
-       style="fill:#8997a5;fill-opacity:1">
+       style="fill:#c4cbd2;fill-opacity:1">
       <rect
          id="rect2713"
          height="27.704"
          width="387.547"
          y="4932.9751"
          x="1084.598"
-         style="fill:#8997a5;fill-opacity:1" />
+         style="fill:#c4cbd2;fill-opacity:1" />
     </g>
     <g
        id="XMLID_3991_"
        transform="matrix(0.00889484,0,0,0.00889484,67.125861,180.82235)"
-       style="fill:#8997a5;fill-opacity:1">
+       style="fill:#c4cbd2;fill-opacity:1">
       <rect
          id="rect2716"
          height="27.704"
          width="387.547"
          y="4877.5679"
          x="1084.598"
-         style="fill:#8997a5;fill-opacity:1" />
+         style="fill:#c4cbd2;fill-opacity:1" />
     </g>
     <g
        id="XMLID_3990_"
        transform="matrix(0.00889484,0,0,0.00889484,67.125861,180.82235)"
-       style="fill:#8997a5;fill-opacity:1">
+       style="fill:#c4cbd2;fill-opacity:1">
       <rect
          id="rect2719"
          height="27.704"
          width="249.02901"
          y="4766.7539"
          x="1084.598"
-         style="fill:#8997a5;fill-opacity:1" />
+         style="fill:#c4cbd2;fill-opacity:1" />
     </g>
     <rect
-       style="fill:#8997a5;fill-opacity:1;stroke-width:0.01520587"
+       style="fill:#c4cbd2;fill-opacity:1;stroke-width:0.01520587"
        id="rect1389"
        x="49.671597"
        y="224.38011"
@@ -2285,7 +2296,7 @@
          id="polygon1391" />
     </g>
     <rect
-       style="fill:#8997a5;fill-opacity:1;stroke-width:0.01520587"
+       style="fill:#c4cbd2;fill-opacity:1;stroke-width:0.01520587"
        id="rect1395"
        x="52.910446"
        y="224.38011"
@@ -2301,7 +2312,7 @@
          id="polygon1397" />
     </g>
     <rect
-       style="fill:#8997a5;fill-opacity:1;stroke-width:0.01520587"
+       style="fill:#c4cbd2;fill-opacity:1;stroke-width:0.01520587"
        id="rect1401"
        x="49.671597"
        y="226.56976"
@@ -2317,7 +2328,7 @@
          id="polygon1403" />
     </g>
     <rect
-       style="fill:#8997a5;fill-opacity:1;stroke-width:0.01520587"
+       style="fill:#c4cbd2;fill-opacity:1;stroke-width:0.01520587"
        id="rect1407"
        x="52.910446"
        y="226.56976"
@@ -2336,7 +2347,7 @@
        transform="matrix(0.01520587,0,0,0.01520587,99.314265,192.92922)"
        points="-3014.463,1925.339 -3264.704,1925.339 -3264.704,1950.339 -3014.463,1950.339 -2864.704,1950.339 -2864.704,1925.339 "
        id="polygon1413"
-       style="fill:#8997a5;fill-opacity:1" />
+       style="fill:#c4cbd2;fill-opacity:1" />
     <g
        style="fill:#ffffff;fill-opacity:1"
        transform="matrix(0.01520587,0,0,0.01520587,99.314265,192.92922)"
@@ -2486,618 +2497,632 @@
        transform="matrix(0.025585,0,0,0.025585,-72.951915,242.31955)" />
     <g
        id="XMLID_4248_"
-       transform="matrix(0.025585,0,0,0.025585,-72.951915,242.31955)">
+       transform="matrix(0.025585,0,0,0.025585,-72.951915,242.31955)"
+       style="fill:#c4cbd2;fill-opacity:1"
+       clip-path="url(#clipPath1521)">
       <g
-         id="XMLID_13708_">
+         id="XMLID_13708_"
+         style="fill:#c4cbd2;fill-opacity:1">
         <circle
            r="12.21"
            cy="655.12299"
            cx="4959.1572"
            id="XMLID_14228_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="741.94598"
            cx="4959.1572"
            id="XMLID_4355_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="828.77002"
            cx="4959.1572"
            id="XMLID_4367_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="915.59497"
            cx="4959.1572"
            id="XMLID_4378_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1002.42"
            cx="4959.1572"
            id="XMLID_5974_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1089.244"
            cx="4959.1572"
            id="XMLID_5975_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1176.069"
            cx="4959.1572"
            id="XMLID_5976_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1262.894"
            cx="4959.1572"
            id="XMLID_5977_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
       </g>
       <g
-         id="XMLID_8466_">
+         id="XMLID_8466_"
+         style="fill:#c4cbd2;fill-opacity:1">
         <circle
            r="12.21"
            cy="655.12299"
            cx="5045.981"
            id="XMLID_13648_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="741.94598"
            cx="5045.981"
            id="XMLID_13647_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="828.77002"
            cx="5045.981"
            id="XMLID_13646_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="915.59497"
            cx="5045.981"
            id="XMLID_13645_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1002.42"
            cx="5045.981"
            id="XMLID_13644_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1089.244"
            cx="5045.981"
            id="XMLID_13643_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1176.069"
            cx="5045.981"
            id="XMLID_13642_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1262.894"
            cx="5045.981"
            id="XMLID_13641_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
       </g>
       <g
-         id="XMLID_13649_">
+         id="XMLID_13649_"
+         style="fill:#c4cbd2;fill-opacity:1">
         <circle
            r="12.21"
            cy="655.12299"
            cx="5132.8062"
            id="XMLID_13658_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="741.94598"
            cx="5132.8062"
            id="XMLID_13657_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="828.77002"
            cx="5132.8062"
            id="XMLID_13656_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="915.59497"
            cx="5132.8062"
            id="XMLID_13655_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1002.42"
            cx="5132.8062"
            id="XMLID_13654_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1089.244"
            cx="5132.8062"
            id="XMLID_13652_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1176.069"
            cx="5132.8062"
            id="XMLID_13651_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1262.894"
            cx="5132.8062"
            id="XMLID_13650_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
       </g>
       <g
-         id="XMLID_13659_">
+         id="XMLID_13659_"
+         style="fill:#c4cbd2;fill-opacity:1">
         <circle
            r="12.21"
            cy="655.12299"
            cx="5219.6299"
            id="XMLID_13667_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="741.94598"
            cx="5219.6299"
            id="XMLID_13666_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="828.77002"
            cx="5219.6299"
            id="XMLID_13665_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="915.59497"
            cx="5219.6299"
            id="XMLID_13664_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1002.42"
            cx="5219.6299"
            id="XMLID_13663_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1089.244"
            cx="5219.6299"
            id="XMLID_13662_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1176.069"
            cx="5219.6299"
            id="XMLID_13661_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1262.894"
            cx="5219.6299"
            id="XMLID_13660_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
       </g>
       <g
-         id="XMLID_13668_">
+         id="XMLID_13668_"
+         style="fill:#c4cbd2;fill-opacity:1">
         <circle
            r="12.21"
            cy="655.12299"
            cx="5306.4551"
            id="XMLID_13676_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="741.94598"
            cx="5306.4551"
            id="XMLID_13675_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="828.77002"
            cx="5306.4551"
            id="XMLID_13674_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="915.59497"
            cx="5306.4551"
            id="XMLID_13673_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1002.42"
            cx="5306.4551"
            id="XMLID_13672_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1089.244"
            cx="5306.4551"
            id="XMLID_13671_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1176.069"
            cx="5306.4551"
            id="XMLID_13670_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1262.894"
            cx="5306.4551"
            id="XMLID_13669_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
       </g>
       <g
-         id="XMLID_13677_">
+         id="XMLID_13677_"
+         style="fill:#c4cbd2;fill-opacity:1">
         <circle
            r="12.21"
            cy="655.12299"
            cx="5393.2788"
            id="XMLID_13685_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="741.94598"
            cx="5393.2788"
            id="XMLID_13684_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="828.77002"
            cx="5393.2788"
            id="XMLID_13683_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="915.59497"
            cx="5393.2788"
            id="XMLID_13682_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1002.42"
            cx="5393.2788"
            id="XMLID_13681_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1089.244"
            cx="5393.2788"
            id="XMLID_13680_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1176.069"
            cx="5393.2788"
            id="XMLID_13679_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1262.894"
            cx="5393.2788"
            id="XMLID_13678_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
       </g>
       <g
-         id="XMLID_13686_">
+         id="XMLID_13686_"
+         style="fill:#c4cbd2;fill-opacity:1">
         <circle
            r="12.21"
            cy="655.12299"
            cx="5480.104"
            id="XMLID_13694_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="741.94598"
            cx="5480.104"
            id="XMLID_13693_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="828.77002"
            cx="5480.104"
            id="XMLID_13692_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="915.59497"
            cx="5480.104"
            id="XMLID_13691_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1002.42"
            cx="5480.104"
            id="XMLID_13690_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1089.244"
            cx="5480.104"
            id="XMLID_13689_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1176.069"
            cx="5480.104"
            id="XMLID_13688_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1262.894"
            cx="5480.104"
            id="XMLID_13687_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
       </g>
       <g
-         id="XMLID_13695_">
+         id="XMLID_13695_"
+         style="fill:#c4cbd2;fill-opacity:1">
         <circle
            r="12.21"
            cy="655.12299"
            cx="5566.9282"
            id="XMLID_13703_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="741.94598"
            cx="5566.9282"
            id="XMLID_13702_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="828.77002"
            cx="5566.9282"
            id="XMLID_13701_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="915.59497"
            cx="5566.9282"
            id="XMLID_13700_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1002.42"
            cx="5566.9282"
            id="XMLID_13699_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1089.244"
            cx="5566.9282"
            id="XMLID_13698_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1176.069"
            cx="5566.9282"
            id="XMLID_13697_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1262.894"
            cx="5566.9282"
            id="XMLID_13696_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
       </g>
       <g
-         id="XMLID_13704_">
+         id="XMLID_13704_"
+         style="fill:#c4cbd2;fill-opacity:1">
         <circle
            r="12.21"
            cy="655.12299"
            cx="5653.752"
            id="XMLID_13713_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="741.94598"
            cx="5653.752"
            id="XMLID_13712_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="828.77002"
            cx="5653.752"
            id="XMLID_13711_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="915.59497"
            cx="5653.752"
            id="XMLID_13710_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1002.42"
            cx="5653.752"
            id="XMLID_13709_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1089.244"
            cx="5653.752"
            id="XMLID_13707_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1176.069"
            cx="5653.752"
            id="XMLID_13706_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1262.894"
            cx="5653.752"
            id="XMLID_13705_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
       </g>
       <g
-         id="XMLID_13714_">
+         id="XMLID_13714_"
+         style="fill:#c4cbd2;fill-opacity:1">
         <circle
            r="12.21"
            cy="655.12299"
            cx="5740.5771"
            id="XMLID_13722_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="741.94598"
            cx="5740.5771"
            id="XMLID_13721_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="828.77002"
            cx="5740.5771"
            id="XMLID_13720_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="915.59497"
            cx="5740.5771"
            id="XMLID_13719_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1002.42"
            cx="5740.5771"
            id="XMLID_13718_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1089.244"
            cx="5740.5771"
            id="XMLID_13717_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1176.069"
            cx="5740.5771"
            id="XMLID_13716_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1262.894"
            cx="5740.5771"
            id="XMLID_13715_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
       </g>
       <g
-         id="XMLID_13723_">
+         id="XMLID_13723_"
+         style="fill:#c4cbd2;fill-opacity:1">
         <circle
            r="12.21"
            cy="655.12299"
            cx="5827.4009"
            id="XMLID_13731_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="741.94598"
            cx="5827.4009"
            id="XMLID_13730_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="828.77002"
            cx="5827.4009"
            id="XMLID_13729_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="915.59497"
            cx="5827.4009"
            id="XMLID_13728_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1002.42"
            cx="5827.4009"
            id="XMLID_13727_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1089.244"
            cx="5827.4009"
            id="XMLID_13726_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1176.069"
            cx="5827.4009"
            id="XMLID_13725_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1262.894"
            cx="5827.4009"
            id="XMLID_13724_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
       </g>
       <g
-         id="XMLID_13732_">
+         id="XMLID_13732_"
+         style="fill:#c4cbd2;fill-opacity:1">
         <circle
            r="12.21"
            cy="655.12299"
            cx="5914.2261"
            id="XMLID_13740_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="741.94598"
            cx="5914.2261"
            id="XMLID_13739_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="828.77002"
            cx="5914.2261"
            id="XMLID_13738_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="915.59497"
            cx="5914.2261"
            id="XMLID_13737_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1002.42"
            cx="5914.2261"
            id="XMLID_13736_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1089.244"
            cx="5914.2261"
            id="XMLID_13735_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1176.069"
            cx="5914.2261"
            id="XMLID_13734_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
         <circle
            r="12.21"
            cy="1262.894"
            cx="5914.2261"
            id="XMLID_13733_"
-           style="fill:#091440" />
+           style="fill:#c4cbd2;fill-opacity:1" />
       </g>
     </g>
   </g>
@@ -3188,24 +3213,24 @@
     </g>
     <g
        id="g3866"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.51378441px;line-height:1.25;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#8997a5;fill-opacity:1;stroke:none;stroke-width:0.16284461"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.51378441px;line-height:1.25;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#c4cbd2;fill-opacity:1;stroke:none;stroke-width:0.16284461"
        aria-label="y/n"
        clip-path="url(#clipPath3870)"
        transform="matrix(0.81559791,0,0,0.81559791,12.19743,17.028672)">
       <path
          inkscape:connector-curvature="0"
          id="path3860"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.51378441px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#8997a5;fill-opacity:1;stroke-width:0.16284461"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.51378441px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#c4cbd2;fill-opacity:1;stroke-width:0.16284461"
          d="m 60.960145,29.566733 q 0.06514,0.01954 0.136789,0.03257 0.07817,0.01303 0.149817,0.01303 0.332203,0 0.540644,-0.195413 0.208441,-0.1889 0.325689,-0.48202 l 0.09771,-0.234496 -1.478629,-3.172213 h 0.540644 l 0.775141,1.752208 q 0.09119,0.208441 0.188899,0.449451 0.104221,0.24101 0.201928,0.468992 h 0.02605 q 0.08468,-0.227982 0.169358,-0.462479 0.09119,-0.24101 0.169359,-0.455964 l 0.690461,-1.752208 h 0.508075 l -1.39395,3.42625 q -0.09119,0.234496 -0.208441,0.436424 -0.117248,0.201927 -0.280093,0.34523 -0.162844,0.149817 -0.377799,0.234497 -0.208441,0.08468 -0.475506,0.08468 -0.234497,0 -0.416883,-0.06514 l 0.110735,-0.423396 z" />
       <path
          inkscape:connector-curvature="0"
          id="path3862"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.51378441px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#8997a5;fill-opacity:1;stroke-width:0.16284461"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.51378441px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#c4cbd2;fill-opacity:1;stroke-width:0.16284461"
          d="m 65.445598,29.736091 h -0.48202 l 2.136521,-5.666992 h 0.48202 z" />
       <path
          inkscape:connector-curvature="0"
          id="path3864"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.51378441px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#8997a5;fill-opacity:1;stroke-width:0.16284461"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.51378441px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#c4cbd2;fill-opacity:1;stroke-width:0.16284461"
          d="m 68.830221,25.528187 h 0.442937 l 0.0456,0.540644 h 0.02605 q 0.247524,-0.267065 0.53413,-0.442938 0.286607,-0.175872 0.657893,-0.175872 0.566699,0 0.82725,0.325689 0.267065,0.319176 0.267065,0.951013 v 1.967163 h -0.53413 v -1.895511 q 0,-0.449452 -0.169358,-0.664406 -0.169359,-0.221469 -0.560186,-0.221469 -0.143303,0 -0.267065,0.03908 -0.117248,0.03257 -0.234496,0.10422 -0.117248,0.07165 -0.24101,0.182386 -0.123762,0.104221 -0.260552,0.247524 v 2.208173 h -0.53413 z" />
     </g>
     <rect
