@@ -57,7 +57,8 @@ class Row(object):
 
     def __init__(self, row=list()):
         self.i = int(row[0])
-        self.img = row[1]
+        self.img_link = row[1]
+        self.img_path = self.img_link.split('(')[1].split(')')[0][1:]
         self.description = row[2]
         self.vo = row[3]
         self.time = row[4]
@@ -70,7 +71,7 @@ class Row(object):
 
 
         return '{} |{}|{}|{}|{}'.format(str(self.i),
-                                     self.img,
+                                     self.img_link,
                                      self.description,
                                      self.vo,
                                      self.time)
@@ -97,17 +98,33 @@ class Row(object):
         ":return: None
         """
         self.i = self.i+1
-        self.img = self.img.replace(str(self.i-1), str(self.i))
+        self.img_link = self.img_link.replace(str(self.i-1), str(self.i))
+        self.img_path = self.img_path.replace(str(self.i-1), str(self.i))
 
-    def rename_img(self):
+    def decrement(self):
+        """Increments index column and img path.
+
+                ":return: None
+                """
+        self.i = self.i - 1
+        self.img_link = self.img_link.replace(str(self.i + 1), str(self.i))
+        self.img_path = self.img_path.replace(str(self.i + 1), str(self.i))
+
+    def rename_img_up(self):
         """increments img filename in ./{workdir}/img/
 
         :return: None
         """
-        f = self.img.split('(')[1].split(')')[0]
-        os.rename(os.path.abspath(f[1:].replace(str(self.i), str(self.i-1))),
-                  os.path.abspath(f[1:]))
+        os.rename(os.path.abspath(self.img_path.replace(str(self.i), str(self.i-1))),
+                  os.path.abspath(self.img_path))
 
+    def rename_img_down(self):
+        """decrements img filename in ./{workdir}/img/
+
+        :return: None
+        """
+        os.rename(os.path.abspath(self.img_path.replace(str(self.i), str(self.i+1))),
+                  os.path.abspath(self.img_path))
 
 # MAIN FUNCTIONS
 
@@ -142,7 +159,7 @@ def set_dir(dir):
 def split_row(path, row_id, text, img):
     """Splits specified storyboard row into two,
     writes updated storyboard file, and renames
-    svg files in ./{workingDir}/img/ if they exist
+    svg files in ./{workingDir}/img/ if flag set.
 
     :param path: str() - file path to be edited
     :param row_id: int() - row # to be split
@@ -151,13 +168,13 @@ def split_row(path, row_id, text, img):
     :return: None
     """
 
-    def refactor_img():
+    def increment_img():
         """increment storyboard svg file names
 
         :return: None
         """
         for r in reversed(table[row_id+1:]):
-            r.rename_img()
+            r.rename_img_up()
         return None
 
     header, table = parse_story(path)
@@ -180,7 +197,53 @@ def split_row(path, row_id, text, img):
     # write file
     write_f(path, lines)
     if img:
-        refactor_img()
+        increment_img()
+
+
+def delete_row(path, row_id, img):
+    """Removes a row from a storyboard,
+    writes updated storyboard file, and renames
+    svg files in ./{workingDir}/img/ if flag set
+
+    :param path: str() - file path to be edited
+    :param row_id: int() - row # to be deleted
+    :param img: bool() - whether or not to refactor storyboard img directory.
+    :return: None
+    """
+
+    def decrement_img():
+        """decrement storyboard svg file names
+
+        :return: None
+        """
+        # delete the image corresponding to the deleted row.
+        try:
+            os.remove(del_image)
+        except FileNotFoundError:
+            print(table[row_id].img_path + 'not found!')
+
+        #decrement the following images
+        for r in table[row_id - 1:]:
+            r.rename_img_down()
+        return None
+
+    header, table = parse_story(path)
+    del_image = table[row_id-1].img_path
+    del table[row_id -1]
+
+    # loop through list of Rows and decrement them.
+    for row in table[row_id-1:]:
+        row.decrement()
+
+    # build updated storyboard lines of entire file
+    lines = header
+    for row in table:
+        lines.append(row.build())
+
+    # write file
+    write_f(path, lines)
+    if img:
+        decrement_img()
 
 
 def gen_story(i, o, dir):
@@ -305,11 +368,11 @@ def parse_args():
     
     :return: None
     """
-    x_args = ['build', 'split', 'dir', 'dir?']
+    x_args = ['build', 'split', 'dir', 'dir?', 'remove']
     i_args = sys.argv[1:]
 
     if i_args[0] not in x_args:
-        print('Unknown command. Use [build], [split], or [dir(?)]')
+        print('Unknown command. Use ' + str(x_args))
     else:
         if i_args[0] == 'dir':
             set_dir(i_args[1])
@@ -336,7 +399,16 @@ def parse_args():
             if confirm(input('split row {} in storyboard {} at "{}"? Y/n: '.format(
                     row_id, i, text))):
                 split_row(i, row_id, text, img)
-
+        elif i_args[0] == 'remove':
+            img = False
+            row_id = int(i_args[1])
+            if i_args[-1] == '--img':
+                img = True
+            # print(img)
+            i = './{}/{}_storyboard.md'.format(dir, dir)
+            if confirm(input('Remove row {} in storyboard {} ? Y/n: '.format(
+                    row_id, i))):
+                delete_row(i, row_id, img)
 
 
 if __name__ == '__main__':
