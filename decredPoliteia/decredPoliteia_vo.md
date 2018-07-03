@@ -15,17 +15,17 @@ Git is utilized to create a historic record of every change to the data stored o
 
 On the front end, the Politeia GUI provides an easy to use web-based interface for stakeholders to submit project proposals, comments, and votes.
 
-In order to limit the amount of on-chain storage required, low quality proposals and spam posts are weeded out through a human review process.
+User registration and Proposal posting fees are implemented to limit fake user accounts and spam posts.
 
-In a system where humans must moderate content, censorship is likely to occur. Although censorship cannot be completely eliminated, Politeia is built to be censorship resistant. 
+Politeia administrators review all submitted proposals to ensure they conform to basic requirements. This helps to ensure that valuable on-chain storage isn't wasted on low quality posts. 
 
-Unlike with many traditional social media applications, content on Politeia cannot be silently censored. By utilizing tokens called censorship tokens in the review process, those unfairly censored are given a means of recourse.
+Unlike conventional social media applications, content on Politeia cannot be silently censored. The owner of any content can use their censorhip token to prove that their content was submitted and whether it was censored.
 
-It works like this: once a user submits a proposal for review, they receive a censorship token. After their proposal has been reviewed and deemed in adherence with guidelines, it becomes available for public consideration. When a proposal becomes public, its corresponding censorship token becomes invalid. 
+It works like this: once a user submits a proposal for review, they receive a censorship token. After their proposal has been reviewed and deemed in adherence with guidelines, it becomes available for public consideration.
 
-If a stakeholder's proposal is rejected, their censorship token remains valid and can be used to prove that their proposal was censored and identify the administrator responsible. 
+If a stakeholder's proposal is rejected, their censorship token can be used to prove that their proposal was censored and identify the administrator responsible. 
 
-The use of censorship tokens in this manner allows stakeholders to hold administrators publicly responsible for their actions when found to be acting inappropriately.
+The use of censorship tokens in this manner allows stakeholders to hold administrators publicly accountable for their actions.
 
 Cryptographically verifiable and censorship resistant, Politeia is the ideal platform for self-governance. 
 
