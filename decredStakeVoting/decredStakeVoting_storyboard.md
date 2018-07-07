@@ -4,12 +4,12 @@
 
 No. | VISUAL | DESCRIPTION | AUDIO | TIME
 :-: | :----: | :---: | :---: | :--:
-1 | ![Shot 1](../decredStakeVoting/img/shot_1.svg) | 'proof', '-of-', and coins symbol slide out as spoken. | Decred's proof-of-stake system | 3 
-2 | ![Shot 2](../decredStakeVoting/img/shot_2.svg) | Icons slide out from behind coins as mentioned. | allows stakeholders to secure, upgrade, and govern the network | 5 
-3 | ![Shot 3](../decredStakeVoting/img/shot_3.svg) | hands rise up from behind coins. | by voting with their coins. To take part in the proof-of-stake voting system, | 6 
-4 | ![Shot 4](../decredStakeVoting/img/shot_4.svg) | Lock icon appears and coins turn from blue to grey. | stakeholders lock a portion of their coins | 3 
+1 | ![Shot 1](../decredStakeVoting/img/shot_1.svg) |  | Decred's proof-of-stake system | 3 
+2 | ![Shot 2](../decredStakeVoting/img/shot_2.svg) |  | is an on-chain decision making system fueled by tickets. | 5 
+3 | ![Shot 3](../decredStakeVoting/img/shot_3.svg) |  | When a stakeholder buys a ticket, they are buying a chance to have their voice heard. | 6 
+4 | ![Shot 4](../decredStakeVoting/img/shot_4.svg) | Lock icon appears and coins turn from blue to grey. | stakeholders lock their lock a portion of their Decred equal to to the current ticket price | 3 
 5 | ![Shot 5](../decredStakeVoting/img/shot_5.svg) | A rectangular slot opens beneath the coins which they fall down into. Out pops a ticket. | in exchange for a ticket. | 3 
-6 | ![Shot 6](../decredStakeVoting/img/shot_6.svg) | The ticket slides into the open slot in the grid and tickets begin to randomly turn blue. | Tickets are placed in the ticket pool where they wait to be randomly selected. | 7
+6 | ![Shot 6](../decredStakeVoting/img/shot_6.svg) | The ticket slides into the open slot in the grid and tickets begin to randomly turn blue. | each ticket is placed in the ticket pool where they wait to be randomly selected. | 7
 7 | ![Shot 7](../decredStakeVoting/img/shot_7.svg) | The pool settles on 5 tickets which slide down out of the pool. | Every 5 minutes, 5 tickets are drawn from the pool. | 5 
 8 | ![Shot 8](../decredStakeVoting/img/shot_8.svg) | The 'camera' zooms in on one as it falls through an open slot in the 'ground'. | Once their ticket is drawn, | 3 
 9 |  ![Shot 9](../decredStakeVoting/img/shot_9.svg) | Out of the same slot comes a broadcast tower which lights up blue as it broadcasts the votes. | a ticket holder's votes are broadcast | 3
