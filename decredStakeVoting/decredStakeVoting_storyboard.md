@@ -11,8 +11,8 @@ No. | VISUAL | AUDIO | TIME
 2 | ![Shot 2](../decredStakeVoting/img/shot_2.svg) | is an on-chain decision making system | 5 
 3 | ![Shot 3](../decredStakeVoting/img/shot_3.svg) | Where stakeholders purchase tickets for a chance to have their voice heard. | 6 
 4 | ![Shot 4](../decredStakeVoting/img/shot_4.svg) | to purchase a ticket, stakeholders must have enough Decred to cover the ticket price. | 3 
-5 | ![Shot 5](../decredStakeVoting/img/shot_5.svg) | in exchange for a ticket. | 3 
-6 | ![Shot 6](../decredStakeVoting/img/shot_6.svg) | each ticket is placed in the ticket pool where they wait to be randomly selected. | 7
+5 | ![Shot 5](../decredStakeVoting/img/shot_5.svg) | If their balance is high enough, a portion equal to the ticket price is locked. These funds are now un-spendable for the duration of the ticket lifecycle. | 3 
+6 | ![Shot 6](../decredStakeVoting/img/shot_6.svg) | The ticket lifecycle | 7
 7 | ![Shot 7](../decredStakeVoting/img/shot_7.svg) | Every 5 minutes, 5 tickets are drawn from the pool. | 5 
 8 | ![Shot 8](../decredStakeVoting/img/shot_8.svg) | Once their ticket is drawn, | 3 
 9 |  ![Shot 9](../decredStakeVoting/img/shot_9.svg) | a ticket holder's votes are broadcast | 3
