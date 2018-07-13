@@ -15,7 +15,7 @@ No. | VISUAL | AUDIO | TIME
 6 | ![Shot 6](../decredStakeVoting/img/shot_6.svg) | if the stakeholder's balance is high enough, a portion equal to the current ticket price may be locked in exchange for a ticket. | 7
 7 | ![Shot 7](../decredStakeVoting/img/shot_7.svg) | Locked funds can not be spent for the duration of the ticket lifecycle. | 5 
 8 | ![Shot 8](../decredStakeVoting/img/shot_8.svg) | after a ticket is mined into a block, it is considered immature and ineligible to vote for about 12 hours, after which it becomes eligible to vote and is added to the ticket pool. | 3 
-9 |  ![Shot 9](../decredStakeVoting/img/shot_9.svg) | a ticket holder's votes are broadcast | 3
+9 |  ![Shot 9](../decredStakeVoting/img/shot_9.svg) | Every 5 minutes, using random entropy from the blockchain, 5 tickets are drawn from the pool to vote. | 3
 10 | ![Shot 10](../decredStakeVoting/img/shot_10.svg) | to the network by their chosen vote casting service. | 5
 11 | ![Shot 11](../decredStakeVoting/img/shot_11.svg) | Proof-of-stake voters can cast block, consensus, and proposal votes. | 7 
 12 | ![Shot 12](../decredStakeVoting/img/shot_12.svg) | Block votes determine whether the previous block is wanted in order to preserve chain integrity. | 8 
