@@ -12,9 +12,9 @@ No. | VISUAL | AUDIO | TIME
 3 | ![Shot 3](../decredStakeVoting/img/shot_3.svg) | Where stakeholders purchase tickets for a chance to have their voice heard. | 6 
 4 | ![Shot 4](../decredStakeVoting/img/shot_4.svg) | to purchase a ticket, stakeholders must have enough Decred to cover the current ticket price. | 3 
 5 | ![Shot 5](../decredStakeVoting/img/shot_5.svg) | Every 144 blocks, a new ticket price is calculated by a pricing algorithm to keep the total number of active tickets equal to the target size. | 3 
-6 | ![Shot 6](../decredStakeVoting/img/shot_6.svg) | if the stakeholder's balance is high enough, a portion equal to the calculated ticket price may be locked in exchange for a ticket. | 7
+6 | ![Shot 6](../decredStakeVoting/img/shot_6.svg) | if the stakeholder's balance is high enough, a portion equal to the current ticket price may be locked in exchange for a ticket. | 7
 7 | ![Shot 7](../decredStakeVoting/img/shot_7.svg) | Locked funds can not be spent for the duration of the ticket lifecycle. | 5 
-8 | ![Shot 8](../decredStakeVoting/img/shot_8.svg) | How long an individual ticket lives for is up to chance. | 3 
+8 | ![Shot 8](../decredStakeVoting/img/shot_8.svg) | after a ticket is mined into a block, it is considered immature and ineligible to vote for about 12 hours, after which it becomes eligible to vote and is added to the ticket pool. | 3 
 9 |  ![Shot 9](../decredStakeVoting/img/shot_9.svg) | a ticket holder's votes are broadcast | 3
 10 | ![Shot 10](../decredStakeVoting/img/shot_10.svg) | to the network by their chosen vote casting service. | 5
 11 | ![Shot 11](../decredStakeVoting/img/shot_11.svg) | Proof-of-stake voters can cast block, consensus, and proposal votes. | 7 
