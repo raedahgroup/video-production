@@ -13,7 +13,7 @@ No. | VISUAL | AUDIO | TIME
 4 | ![Shot 4](../decredStakeVoting/img/shot_4.svg) | to purchase a ticket, participants must have enough Decred to cover the current ticket price. | 3 
 5 | ![Shot 5](../decredStakeVoting/img/shot_5.svg) | Every 144 blocks, a new ticket price is calculated by a pricing algorithm to keep the total number of active tickets equal to the target size. | 3 
 6 | ![Shot 6](../decredStakeVoting/img/shot_6.svg) | if the participant's balance is high enough, a portion equal to the current ticket price may be locked in exchange for a ticket. | 7
-7 | ![Shot 7](../decredStakeVoting/img/shot_7.svg) | Locked funds can not be spent for the duration of the ticket lifecycle. | 5 
+7 | ![Shot 7](../decredStakeVoting/img/shot_7.svg) | Locked funds can not be spent for the duration of the ticket lifecycle. The exact length of a specific ticket's life is largely up to chance, but averages about 28 days. | 5 
 8 | ![Shot 8](../decredStakeVoting/img/shot_8.svg) | after a ticket is mined into a block, it is considered immature and ineligible to vote for about 12 hours, after which it becomes eligible to vote and is added to the ticket pool. | 3 
 9 |  ![Shot 9](../decredStakeVoting/img/shot_9.svg) | Every 5 minutes, using random entropy from the blockchain, 5 tickets are drawn from the pool to vote. | 3
 10 | ![Shot 10](../decredStakeVoting/img/shot_10.svg) | Once their ticket is drawn, a participant's votes are broadcast to the network by their chosen stake voting service for inclusion in the next block. | 5
