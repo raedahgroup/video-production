@@ -17,7 +17,7 @@
    version="1.1"
    id="svg2052"
    inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
-   sodipodi:docname="shot_1.svg"
+   sodipodi:docname="shot_19.svg"
    inkscape:export-filename="C:\Users\jzs\Desktop\decred_schematic1.png"
    inkscape:export-xdpi="64"
    inkscape:export-ydpi="64">
@@ -2638,7 +2638,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.509375"
-     inkscape:cx="860.8215"
+     inkscape:cx="199.2264"
      inkscape:cy="623.29603"
      inkscape:document-units="px"
      inkscape:current-layer="g1828"
@@ -10375,6 +10375,18 @@
          height="25.000999"
          id="rect3684" />
     </g>
+    <path
+       style="fill:#091440;fill-opacity:1;stroke-width:0.18016207"
+       inkscape:connector-curvature="0"
+       class="b"
+       d="m 269.51792,-57.953337 10.26924,10.269239 h -10.08908 l -16.93524,-16.93524 h 10.47823 a 8.4676182,8.4676182 0 0 0 0,-16.935234 h -3.41587 l -8.46762,-8.46762 h 11.49434 a 16.935236,16.935236 0 0 1 16.93524,16.93524 c 0,6.867774 -3.02673,12.251017 -10.26924,15.133615 z"
+       id="path2225" />
+    <path
+       style="fill:#091440;fill-opacity:1;stroke-width:0.18016207"
+       inkscape:connector-curvature="0"
+       class="b"
+       d="M 239.97134,-79.752953 229.7021,-90.022192 h 10.09808 l 16.93524,16.93524 h -10.47823 a 8.4676182,8.4676182 0 1 0 0,16.935234 h 3.40687 l 8.46761,8.46762 h -11.49434 a 16.935236,16.935236 0 0 1 -16.93523,-16.93524 c 0,-6.867774 3.02672,-12.251017 10.26924,-15.133615 z"
+       id="path2227" />
   </g>
   <style
      type="text/css"
