@@ -17,9 +17,9 @@ No. | VISUAL | AUDIO | TIME
 10 | ![Shot 10](../decredStakeVoting/img/shot_10.svg) | Once their ticket is drawn, a participant's votes are broadcast to the network by their chosen stake voting service for inclusion in the next block. | 5
 11 | ![Shot 11](../decredStakeVoting/img/shot_11.svg) | There are three on-chain voting processes to participate in: block, consensus, and proposal votes. | 7 
 12 | ![Shot 12](../decredStakeVoting/img/shot_12.svg) | Block votes provide a mechanism for participants to keep nonconforming proof-of-work miners in check. | 8 
-13 | ![Shot 13](../decredStakeVoting/img/shot_13.svg) | 5 votes in each new block vote on whether to reject the previous block. If the block is rejected, the founding miner will not receive their part of the block reward. | 8 
-14 | ![Shot 14](../decredStakeVoting/img/shot_14.svg) | Consensus votes allow participants to vote for or against changes to the Decred network. | 5 
-15 | ![Shot 15](../decredStakeVoting/img/shot_15.svg) |  These votes take place over an extended period of time and ratified changes automatically become active. | 5 
+13 | ![Shot 13](../decredStakeVoting/img/shot_13.svg) | votes in each new block decide whether to reject the previous block. If the block is rejected, the founding miner will not receive their part of the block reward. | 8 
+14 | ![Shot 14](../decredStakeVoting/img/shot_14.svg) | Consensus voting is a two stage process where participants vote for or against the implementation of changes to the Decred network. | 5 
+15 | ![Shot 15](../decredStakeVoting/img/shot_15.svg) | if enough nodes upgrade within the upgrade phase interval, voting commences. If 75% of votes signal yes within the voting interval, then the changes are ratified will be automatically implemented after another block interval. | 5 
 16 | ![Shot 16](../decredStakeVoting/img/shot_16.svg) | Lastly, Proposals from Politeia, the Decred proposal system, which receive enough upvotes will be put up for an on-chain proposal vote where participants will decide whether the proposed project should receive funding from the network fund. | 7
 17 |  ![Shot 17](../decredStakeVoting/img/shot_17.svg) | After a participant's ticket has voted, the funds used to purchase the ticket are unlocked | 7 
 18 | ![Shot 18](../decredStakeVoting/img/shot_18.svg) | and a portion of the block reward is credited to their account. | 4
