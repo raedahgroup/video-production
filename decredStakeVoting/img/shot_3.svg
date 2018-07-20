@@ -2821,6 +2821,22 @@
          id="path1823"
          d="M 0,450 H 450 V 0 H 0 Z" />
     </clipPath>
+    <clipPath
+       id="clipPath1624"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1622"
+         d="M 0,450 H 450 V 0 H 0 Z" />
+    </clipPath>
+    <clipPath
+       id="clipPath1865"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1863"
+         d="M 0,450 H 450 V 0 H 0 Z" />
+    </clipPath>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -2830,8 +2846,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.36018252"
-     inkscape:cx="1545.06"
-     inkscape:cy="649.57679"
+     inkscape:cx="735.12862"
+     inkscape:cy="668.63659"
      inkscape:document-units="px"
      inkscape:current-layer="g7061"
      showgrid="true"
@@ -3068,29 +3084,6 @@
        id="polygon7538-5"
        transform="matrix(0.24134007,0,0,0.24134007,-186.12139,-102.19991)"
        clip-path="url(#SVGID_2_)" />
-    <rect
-       clip-path="url(#SVGID_2_)"
-       style="fill:#c4cbd2;fill-opacity:1;stroke:none;stroke-width:0.86412919;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       x="218.55522"
-       y="-15.773071"
-       class="st7"
-       width="21.110054"
-       height="21.081905"
-       id="rect7534-8"
-       transform="translate(-3.7330392e-4,0.21582818)" />
-    <path
-       clip-path="url(#SVGID_2_)"
-       style="fill:#c4cbd2;fill-opacity:1;stroke:none;stroke-width:0.86412919;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:connector-curvature="0"
-       class="st7"
-       d="m 153.9826,-16.1176 v 0 c -5.98951,0 -10.86062,4.871128 -10.86062,10.8854829 v 0 c 0,6.01435115 4.87111,10.8854806 10.86062,10.8854806 v 0 c 5.9895,0 10.86064,-4.87112945 10.86064,-10.8854806 v 0 c 0,-6.0143549 -4.87114,-10.8854829 -10.86064,-10.8854829 z"
-       id="path7536-1"
-       transform="translate(-3.7330392e-4,0.21582818)" />
-    <path
-       style="fill:#c4cbd2;stroke:none;stroke-width:0.86412913;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
-       d="M 203.67806,5.5635569 191.3811,-15.70094 179.10845,5.5635569 Z"
-       id="polygon18481"
-       inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#8997a5;stroke-width:0.86412919;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4384)"
        d="M 379.32593,-89.938273 V -131.88918 H 254.1132 v 36.942644"
@@ -3335,6 +3328,55 @@
                id="path1849"
                style="fill:#c4cbd2;fill-opacity:1;fill-rule:nonzero;stroke:none"
                d="M 0,0 -45,45.112 -90.112,0 -70.155,-19.957 -59.22,-9.022 c -7.998,-93.104 -89.958,-162.095 -183.061,-154.097 -93.104,7.999 -162.095,89.959 -154.097,183.062 3.769,43.865 24.486,84.533 57.753,113.369 l -18.495,21.308 c -82.405,-71.353 -91.363,-196 -20.009,-278.405 71.354,-82.405 196,-91.363 278.405,-20.01 39.526,34.227 63.857,82.737 67.652,134.885 l 11.047,-11.047 z" />
+          </g>
+        </g>
+      </g>
+    </g>
+    <g
+       transform="matrix(0.06314468,0,0,-0.06314468,177.18608,8.9230399)"
+       inkscape:label="dcr - icons - 020718"
+       id="g1849">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1851"
+         style="fill:#17173f;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="M 425,99.999 H 25 v -50 h 400 z" />
+      <g
+         transform="translate(425,350.0012)"
+         id="g1853">
+        <path
+           inkscape:connector-curvature="0"
+           id="path1855"
+           style="fill:#c4cbd2;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="M 0,0 V 50 H -400 V 0 -250.002 H 0 Z" />
+      </g>
+      <path
+         inkscape:connector-curvature="0"
+         id="path1857"
+         style="fill:#17173f;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="m 300,212.457 h 74.956 v 74.912 H 300 Z" />
+      <g
+         id="g1859">
+        <g
+           clip-path="url(#clipPath1865)"
+           id="g1861">
+          <g
+             transform="translate(106.1855,293.7316)"
+             id="g1867">
+            <path
+               inkscape:connector-curvature="0"
+               id="path1869"
+               style="fill:#17173f;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               d="m 0,0 v 0 c -24.127,0 -43.686,-19.618 -43.686,-43.817 v -10e-4 c 0,-24.2 19.559,-43.818 43.686,-43.818 24.127,0 43.686,19.618 43.686,43.818 v 10e-4 C 43.686,-19.618 24.127,0 0,0" />
+          </g>
+          <g
+             transform="translate(174.2842,212.4572)"
+             id="g1871">
+            <path
+               inkscape:connector-curvature="0"
+               id="path1873"
+               style="fill:#17173f;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               d="M 0,0 H 101.085 L 50.542,87.543 Z" />
           </g>
         </g>
       </g>
