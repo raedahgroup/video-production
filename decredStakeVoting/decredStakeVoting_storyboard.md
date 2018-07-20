@@ -21,11 +21,9 @@ No. | VISUAL | AUDIO | TIME
 14 | ![Shot 14](../decredStakeVoting/img/shot_14.svg) | Consensus voting is a two stage process where participants vote for or against the implementation of changes to the Decred network. | 5 
 15 | ![Shot 15](../decredStakeVoting/img/shot_15.svg) | if enough nodes upgrade within the upgrade phase interval, voting commences. If 75% of votes signal yes within the voting interval, then the changes are ratified will be automatically implemented after another block interval. | 5 
 16 | ![Shot 16](../decredStakeVoting/img/shot_16.svg) | Lastly, Proposals from Politeia, the Decred proposal system, which receive enough upvotes will be put up for an on-chain proposal vote where participants will decide whether the proposed project should receive funding from the network fund. | 7
-17 |  ![Shot 17](../decredStakeVoting/img/shot_17.svg) | After a participant's ticket has voted, the funds used to purchase the ticket are unlocked | 7 
-18 | ![Shot 18](../decredStakeVoting/img/shot_18.svg) | and a portion of the block reward is credited to their account. | 4
-19 | ![Shot 19](../decredStakeVoting/img/shot_19.svg) | This unique proof-of-stake system | 3 
-20 | ![Shot 20](../decredStakeVoting/img/shot_20.svg) | allows Decred to operate as an autonomous self-funded digital currency where participants make the rules. | 7 
-21 | ![Shot 21](../decredStakeVoting/img/shot_21.svg) | To begin participating in Decred proof-of-stake | 4 
-22 |  ![Shot 22](../decredStakeVoting/img/shot_22.svg) | download Decrediton at Decred.org  | 4 
-23 |  ![Shot 23](../decredStakeVoting/img/shot_23.svg) | and purchase Decred at any one of the many supporting exchanges. | 6
-24 | ![Shot 24](../decredStakeVoting/img/shot_24.svg) | Decred; Decentralized Credits. | 3
+17 |  ![Shot 17](../decredStakeVoting/img/shot_17.svg) | After a participant's ticket has voted, the funds used to purchase the ticket are unlocked and a portion of the block reward is credited to their account. | 7 
+18 | ![Shot 18](../decredStakeVoting/img/shot_18.svg) | allows Decred to operate as an autonomous self-funded digital currency where participants make the rules. | 7 
+19 | ![Shot 19](../decredStakeVoting/img/shot_19.svg) | To begin participating in Decred proof-of-stake | 4 
+20 |  ![Shot 20](../decredStakeVoting/img/shot_20.svg) | download Decrediton at Decred.org  | 4 
+21 |  ![Shot 21](../decredStakeVoting/img/shot_21.svg) | and purchase Decred at any one of the many supporting exchanges. | 6
+22 | ![Shot 22](../decredStakeVoting/img/shot_22.svg) | Decred; Decentralized Credits. | 3
