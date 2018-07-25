@@ -21,8 +21,9 @@ No. | VISUAL | AUDIO | TIME
 14 | ![Shot 14](../decredStakeVoting/img/shot_14.svg) | Consensus voting is a two stage process where participants vote for or against the implementation of changes to the Decred network. | 5 
 15 | ![Shot 15](../decredStakeVoting/img/shot_15.svg) | if enough nodes upgrade within the upgrade phase interval, voting commences. If 75% of votes signal yes within the voting interval, then the changes are ratified will be automatically implemented after another block interval. | 5 
 16 | ![Shot 16](../decredStakeVoting/img/shot_16.svg) | After a participant's block and consensus votes have been cast, the funds used to purchase the ticket are unlocked and a portion of the block reward is credited to their account. | 7
-17 |  ![Shot 17](../decredStakeVoting/img/shot_17.svg) | Other decisions not involving consensus rule changes, such as how to spend the project subsidy fund are decided through Politeia, the Decred proposal system. Through their wallet, participants with live tickets can vote to approve or deny Politeia proposals. | 7 
-18 | ![Shot 18](../decredStakeVoting/img/shot_18.svg) | To begin participating in Decred proof-of-stake | 4 
-19 |  ![Shot 19](../decredStakeVoting/img/shot_19.svg) | download Decrediton at Decred.org  | 4 
-20 |  ![Shot 20](../decredStakeVoting/img/shot_20.svg) | and purchase Decred at any one of the many supporting exchanges. | 6
-21 | ![Shot 21](../decredStakeVoting/img/shot_21.svg) | Decred; Decentralized Credits. | 3
+17 |  ![Shot 17](../decredStakeVoting/img/shot_17.svg) | Other decisions not involving consensus rule changes, such as how to spend the project subsidy fund are decided through Politeia, the Decred proposal system. | 7 
+18 |  ![Shot 18](../decredStakeVoting/img/shot_18.svg) | Through their wallet, participants with live tickets can vote to approve or deny Politeia proposals. | 7 
+19 | ![Shot 19](../decredStakeVoting/img/shot_19.svg) | To begin participating in Decred proof-of-stake | 4 
+20 |  ![Shot 20](../decredStakeVoting/img/shot_20.svg) | download Decrediton at Decred.org  | 4 
+21 |  ![Shot 21](../decredStakeVoting/img/shot_21.svg) | and purchase Decred at any one of the many supporting exchanges. | 6
+22 | ![Shot 22](../decredStakeVoting/img/shot_22.svg) | Decred; Decentralized Credits. | 3
