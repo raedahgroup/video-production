@@ -15,7 +15,7 @@ No. | VISUAL | AUDIO | TIME
 8 | ![Shot 8](../decredStakeVoting/img/shot_8.svg) | A ticket's life begins after it is mined into a block. How long a ticket must wait to be mined is determined by the ticket fee paid when it was purchased. Once included in a block, a ticket is considered immature and must wait about 12 hours before it is mature enough to be added to the ticket pool. | 3 
 9 |  ![Shot 9](../decredStakeVoting/img/shot_9.svg) | The ticket pool is where mature tickets wait to be chosen to vote. Every 5 minutes, using arbitrary entropy from the blockchain, 5 tickets are randomly drawn from the pool to vote. | 3
 10 | ![Shot 10](../decredStakeVoting/img/shot_10.svg) | Once their ticket is drawn, a participant's votes are broadcast to the network by their chosen stake voting service for inclusion in the next block. | 5
-11 | ![Shot 11](../decredStakeVoting/img/shot_11.svg) | There are three on-chain voting processes to participate in: block, consensus, and proposal votes. | 7 
+11 | ![Shot 11](../decredStakeVoting/img/shot_11.svg) | There are two on-chain voting processes to participate in: block votes and consensus votes. | 7 
 12 | ![Shot 12](../decredStakeVoting/img/shot_12.svg) | Block votes provide a mechanism for participants to keep nonconforming proof-of-work miners in check. | 8 
 13 | ![Shot 13](../decredStakeVoting/img/shot_13.svg) | 5 votes in each new block decide whether to reject the previous block. If the block is rejected, the founding miner will not receive their part of the block reward. | 8 
 14 | ![Shot 14](../decredStakeVoting/img/shot_14.svg) | Consensus voting is a two stage process where participants vote for or against the implementation of changes to the Decred network. | 5 
