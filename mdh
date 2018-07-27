@@ -25,6 +25,10 @@ Commands:
         after the sequence of given VO {text ...}. If --img flag is set then
         the names of the storyboard .svg files will be refactored.
 
+    remove {rowid} {--img}(optional)
+        - removes a row from the _storyboard.md in working directory. If --img flag is set then
+        the names of the storyboard .svg files will be refactored.
+
 Examples:
     ./mdh dir decredPoliteia
         - sets ./decredpoliteia as working directory
