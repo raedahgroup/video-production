@@ -59,9 +59,8 @@ class Row(object):
         self.i = int(row[0])
         self.img_link = row[1]
         self.img_path = self.img_link.split('(')[1].split(')')[0][1:]
-        self.description = row[2]
-        self.vo = row[3]
-        self.time = row[4]
+        self.vo = row[2]
+        self.time = row[3]
 
     def build(self):
         """Returns self as formatted md table row string.
@@ -70,9 +69,8 @@ class Row(object):
         """
 
 
-        return '{} |{}|{}|{}|{}'.format(str(self.i),
+        return '{} |{}|{}|{}'.format(str(self.i),
                                      self.img_link,
-                                     self.description,
                                      self.vo,
                                      self.time)
 
@@ -314,8 +312,8 @@ def build_story(lines, dir):
                    '###Storyboard\n',
                    '**Estimated Runtime:**\n',
                    '\n',
-                   'No. | VISUAL | DESCRIPTION | AUDIO | TIME\n',
-                   ':-: | :----: | :---: | :---: | :--:\n'
+                   'No. | VISUAL | AUDIO | TIME\n',
+                   ':-: | :----: | :---: | :--:\n'
                 ]
     i = 1
     for line in lines:
@@ -338,9 +336,9 @@ def parse_story(path):
     :return: list( str(), ... ), list( Row(), ... )
     """
     lines = read_f(path)
-    header = lines[:6]
-    table_lines = lines[6:]
-    #print(table_lines)
+    header = lines[:7]
+    table_lines = lines[7:]
+    #print(header)
     table = []
     for line in table_lines:
         table.append(Row(line.split('|')))
