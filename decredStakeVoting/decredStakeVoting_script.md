@@ -7,13 +7,13 @@ To purchase a ticket, participants must have enough Decred to cover the current 
 
 Every 144 blocks, a new ticket price is calculated by a pricing algorithm to keep the total number of active tickets equal to the target size.
 
-If the participant's balance is high enough, a portion equal to the current ticket price may be locked in exchange for a ticket. Locked funds cannot be spent for the duration of the ticket lifecycle. The exact length of a specific ticket's life is largely up to chance, but averages 30 days.
+If the participant's balance is high enough, a portion equal to the current ticket price may be locked in exchange for a ticket. Locke funds cannot be spent for the duration of the ticket lifecycle. The exact length of a specific ticket's life is largely up to chance, but averages 30 days.
 
 A ticket's life begins after it is mined into a block. How long a ticket must wait to be mined is determined by the ticket fee paid when it was purchased. Once included in a block, a ticket is considered immature and must wait about 12 hours before it becomes live and is added to the ticket pool.
 
 The ticket pool is where live tickets wait to be chosen to vote. Every 5 minutes, using arbitrary entropy from the blockchain, 5 tickets are randomly drawn from the pool to cast their votes.
 
-Once their ticket is drawn, a participant's votes must be broadcast to the network for inclusion in the next block. Participants have 2 options for broadcasting their votes. They can broadcast their votes themselves which requires running their own node 24/7, ready and waiting to broadcast the moment their ticket is drawn. Or, a voting service provider can be employed to broadcast on their behalf.
+Once their ticket is drawn, a participant's votes are broadcast to the network by their chosen stake voting service for inclusion in the next block.
 
 There are two on-chain voting process to participate in: block votes and consensus votes.
 
