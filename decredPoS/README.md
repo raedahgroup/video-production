@@ -2,7 +2,7 @@
 
 This video is a __motion graphic explainer video__ presenting a detailed overview of the Decred staking system.
 
-####Covered Topics Include:
+#### Covered Topics Include:
 
 - Ticket lifecycle
 - How ticket price is determined

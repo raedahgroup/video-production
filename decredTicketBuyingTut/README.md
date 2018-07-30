@@ -2,7 +2,7 @@
 
 This video is a **tutorial video** walking beginners through buying a ticket in [Decrediton](https://github.com/decred/decrediton). 
 
-####Covered Topics Include:
+#### Covered Topics Include:
 
 - download
 - Wallet Setup
