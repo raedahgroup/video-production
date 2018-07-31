@@ -12,7 +12,7 @@ To see what is currently in the works, check out the [open issues](https://githu
 
 #### Pre-Production Materials
 
-All pre-production materials are written in markdown, includes scripts and storyboards.
+All pre-production materials are written in markdown, including scripts and storyboards.
 
 Creating storyboards in this formant is tedious, but allows for easy viewing directly on GitHub. To help with the creation and editing of storyboards in markdown format, [mdh](https://github.com/raedahgroup/video-production/blob/master/mdh) can be used.
 

@@ -18,5 +18,3 @@ To discuss and track progress of this video check out the [corresponding issue](
 
 - [voice over script](./decredPoS_script.md)
 - [storyboard](./decredPoS_storyboard.md)
-
-![stakey-squat](https://decredulo.us/wp-content/uploads/2017/11/Stakey.gif)
