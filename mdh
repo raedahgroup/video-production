@@ -61,8 +61,13 @@ class Row(object):
 
     def __init__(self, row=list()):
         self.i = int(row[0])
-        self.img_link = row[1]
-        self.img_path = self.img_link.split('(')[1].split(')')[0][1:]
+        self.visual = row[1]
+        # if visual contains img link
+        if self.visual[1] == '!':
+            # get local img path
+            self.img_path = self.visual.split('(')[1].split(')')[0][1:]
+        else:
+            self.img_path = False
         self.vo = row[2]
         self.time = row[3]
 
@@ -74,7 +79,7 @@ class Row(object):
 
 
         return '{} |{}|{}|{}'.format(str(self.i),
-                                     self.img_link,
+                                     self.visual,
                                      self.vo,
                                      self.time)
 
@@ -100,8 +105,9 @@ class Row(object):
         ":return: None
         """
         self.i = self.i+1
-        self.img_link = self.img_link.replace(str(self.i-1), str(self.i))
-        self.img_path = self.img_path.replace(str(self.i-1), str(self.i))
+        if self.img_path:
+            self.visual = self.visual.replace(str(self.i-1), str(self.i))
+            self.img_path = self.img_path.replace(str(self.i-1), str(self.i))
 
     def decrement(self):
         """Increments index column and img path.
@@ -109,24 +115,27 @@ class Row(object):
                 ":return: None
                 """
         self.i = self.i - 1
-        self.img_link = self.img_link.replace(str(self.i + 1), str(self.i))
-        self.img_path = self.img_path.replace(str(self.i + 1), str(self.i))
+        if self.img_path:
+            self.visual = self.visual.replace(str(self.i + 1), str(self.i))
+            self.img_path = self.img_path.replace(str(self.i + 1), str(self.i))
 
     def rename_img_up(self):
         """increments img filename in ./{workdir}/img/
 
         :return: None
         """
-        os.rename(os.path.abspath(self.img_path.replace(str(self.i), str(self.i-1))),
-                  os.path.abspath(self.img_path))
+        if self.img_path:
+            os.rename(os.path.abspath(self.img_path.replace(str(self.i), str(self.i-1))),
+                    os.path.abspath(self.img_path))
 
     def rename_img_down(self):
         """decrements img filename in ./{workdir}/img/
 
         :return: None
         """
-        os.rename(os.path.abspath(self.img_path.replace(str(self.i), str(self.i+1))),
-                  os.path.abspath(self.img_path))
+        if self.img_path:
+            os.rename(os.path.abspath(self.img_path.replace(str(self.i), str(self.i+1))),
+                    os.path.abspath(self.img_path))
 
 # MAIN FUNCTIONS
 
@@ -313,6 +322,7 @@ def build_story(lines, dir):
     """
     skip = ['#', '`', '*', '\n', ' ']
     story_lines = [ lines[0],
+                    '\n',
                    '###Storyboard\n',
                    '**Estimated Runtime:**\n',
                    '\n',
