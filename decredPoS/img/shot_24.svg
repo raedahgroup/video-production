@@ -2629,14 +2629,6 @@
          style="overflow:visible;"
          xlink:href="#SVGID_1_" />
     </clipPath>
-    <clipPath
-       id="clipPath3152"
-       clipPathUnits="userSpaceOnUse">
-      <path
-         inkscape:connector-curvature="0"
-         id="path3150"
-         d="M 0,450 H 450 V 0 H 0 Z" />
-    </clipPath>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -2646,12 +2638,11 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.509375"
-     inkscape:cx="64.747876"
+     inkscape:cx="199.2264"
      inkscape:cy="623.29603"
->>>>>>> 57f8240... finalize storyboard draft for community review
      inkscape:document-units="px"
      inkscape:current-layer="g1828"
-     showgrid="false"
+     showgrid="true"
      units="px"
      inkscape:showpageshadow="false"
      borderlayer="true"
@@ -10384,36 +10375,18 @@
          height="25.000999"
          id="rect3684" />
     </g>
-    <g
-       transform="matrix(0.1239381,0,0,-0.1239381,226.63342,-40.873177)"
-       inkscape:label="dcr - icons - 020718"
-       id="g3144">
-      <g
-         id="g3146">
-        <g
-           clip-path="url(#clipPath3152)"
-           id="g3148">
-          <g
-             transform="translate(291.415,399.7766)"
-             id="g3154">
-            <path
-               inkscape:connector-curvature="0"
-               id="path3156"
-               style="fill:#c4cbd2;fill-opacity:1;fill-rule:nonzero;stroke:none"
-               d="m 0,0 c 0,-36.68 -29.735,-66.415 -66.415,-66.415 -36.68,0 -66.415,29.735 -66.415,66.415 h -58.289 v -349.554 h 58.289 c 0.013,36.681 29.758,66.406 66.438,66.393 36.662,-0.013 66.379,-29.731 66.392,-66.393 H 58.288 V 0 Z" />
-          </g>
-          <g
-             transform="translate(150.4575,225.0002)"
-             id="g3158">
-            <path
-               inkscape:connector-curvature="0"
-               id="path3160"
-               style="fill:#091440;fill-opacity:1;fill-rule:nonzero;stroke:none"
-               d="m 0,0 c 0,41.168 33.374,74.542 74.542,74.542 41.169,0 74.543,-33.374 74.543,-74.542 0,-41.169 -33.374,-74.543 -74.543,-74.543 C 33.374,-74.543 0,-41.169 0,0" />
-          </g>
-        </g>
-      </g>
-    </g>
+    <path
+       style="fill:#091440;fill-opacity:1;stroke-width:0.18016207"
+       inkscape:connector-curvature="0"
+       class="b"
+       d="m 269.51792,-57.953337 10.26924,10.269239 h -10.08908 l -16.93524,-16.93524 h 10.47823 a 8.4676182,8.4676182 0 0 0 0,-16.935234 h -3.41587 l -8.46762,-8.46762 h 11.49434 a 16.935236,16.935236 0 0 1 16.93524,16.93524 c 0,6.867774 -3.02673,12.251017 -10.26924,15.133615 z"
+       id="path2225" />
+    <path
+       style="fill:#091440;fill-opacity:1;stroke-width:0.18016207"
+       inkscape:connector-curvature="0"
+       class="b"
+       d="M 239.97134,-79.752953 229.7021,-90.022192 h 10.09808 l 16.93524,16.93524 h -10.47823 a 8.4676182,8.4676182 0 1 0 0,16.935234 h 3.40687 l 8.46761,8.46762 h -11.49434 a 16.935236,16.935236 0 0 1 -16.93523,-16.93524 c 0,-6.867774 3.02672,-12.251017 10.26924,-15.133615 z"
+       id="path2227" />
   </g>
   <style
      type="text/css"
