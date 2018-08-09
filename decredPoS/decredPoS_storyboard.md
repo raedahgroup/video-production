@@ -1,29 +1,33 @@
 ## Decred: Proof-of-Stake
 
 ### Storyboard
-**Estimated Runtime:** 1.8 minutes
+**Estimated Runtime:** 03:46
 
-No. | VISUAL | AUDIO | TIME
-:-: | :----: | :---: | :--:
-1 | ![Shot 1](../decredPoS/img/shot_1.svg) | Decred proof-of-stake | 3 
-2 | ![Shot 2](../decredPoS/img/shot_2.svg) | is an on-chain decision making system | 5 
-3 | ![Shot 3](../decredPoS/img/shot_3.svg) | Where participants purchase tickets for a chance to have their voice heard. | 6 
-4 | ![Shot 4](../decredPoS/img/shot_4.svg) | to purchase a ticket, participants must have enough Decred to cover the current ticket price. | 3 
-5 | ![Shot 5](../decredPoS/img/shot_5.svg) | Every 144 blocks, a new ticket price is calculated by a pricing algorithm to keep the total number of active tickets equal to the target size. | 3 
-6 | ![Shot 6](../decredPoS/img/shot_6.svg) | If the participant's balance is high enough, a portion equal to the current ticket price may be locked in exchange for a ticket. | 7
-7 | ![Shot 7](../decredPoS/img/shot_7.svg) | Locked funds can not be spent for the duration of the ticket lifecycle. The exact length of a specific ticket's life is largely up to chance, but averages 30 days. | 5 
-8 | ![Shot 8](../decredPoS/img/shot_8.svg) | A ticket's life begins after it is mined into a block. How long a ticket must wait to be mined is determined by the ticket fee paid when it was purchased. Once included in a block, a ticket is considered immature and must wait about 12 hours before it becomes live and is added to the ticket pool. | 3 
-9 |  ![Shot 9](../decredPoS/img/shot_9.svg) | The ticket pool is where live tickets wait to be chosen to vote. Every 5 minutes, using arbitrary entropy from the blockchain, 5 tickets are randomly drawn from the pool to vote. | 3
-10 | ![Shot 10](../decredPoS/img/shot_10.svg) | Once their ticket is drawn, a participant's votes are broadcast to the network by their chosen stake voting service for inclusion in the next block. | 5
-11 | ![Shot 11](../decredPoS/img/shot_11.svg) | There are two on-chain voting processes to participate in: block votes and consensus votes. | 7 
-12 | ![Shot 12](../decredPoS/img/shot_12.svg) | Block votes provide a mechanism for participants to keep nonconforming proof-of-work miners in check. | 8 
-13 | ![Shot 13](../decredPoS/img/shot_13.svg) | 5 votes in each new block decide whether to reject the previous block. If the block is rejected, the founding miner will not receive their part of the block reward. | 8 
-14 | ![Shot 14](../decredPoS/img/shot_14.svg) | Consensus voting is a two stage process where participants vote for or against the implementation of changes to the Decred network. | 5 
-15 | ![Shot 15](../decredPoS/img/shot_15.svg) | if enough nodes upgrade within the upgrade phase interval, voting commences. If 75% of votes signal yes within the voting interval, then the changes are ratified and will be automatically implemented after another block interval. | 5 
-16 | ![Shot 16](../decredPoS/img/shot_16.svg) | After a participant's block and consensus votes have been cast, the funds used to purchase the ticket are unlocked and a portion of the block reward is credited to their account. | 7
-17 |  ![Shot 17](../decredPoS/img/shot_17.svg) | Other decisions not involving consensus rule changes, such as how to spend the project subsidy fund are decided through Politeia, the Decred proposal system. | 7 
-18 |  ![Shot 18](../decredPoS/img/shot_18.svg) | Through their wallet, participants with live tickets can vote to approve or deny Politeia proposals. | 7 
-19 | ![Shot 19](../decredPoS/img/shot_19.svg) | To begin participating in Decred proof-of-stake | 4 
-20 |  ![Shot 20](../decredPoS/img/shot_20.svg) | download Decrediton at Decred.org  | 4 
-21 |  ![Shot 21](../decredPoS/img/shot_21.svg) | and purchase Decred at any one of the many supporting exchanges. | 6
-22 | ![Shot 22](../decredPoS/img/shot_22.svg) | Decred; Decentralized Credits. | 3
+**Transition style:** Simple 'blink' on/off to give it a digital display feel.
+
+No. | VISUAL | DESCRIPTION | TIME
+:-: | :----: | :---- | :--:
+1 | ![Shot 1](../decredPoS/img/shot_1.svg) | **VO:**<br />Decred Proof-of-stake<br />**action:**<br />Ticket icon is highlighted. | 00:03 
+2 | ![Shot 2](../decredPoS/img/shot_2.svg) | **VO:**<br />is an on-chain decision making system<br />**action:**<br />"on-chain" and block icon appear first then "decision" and votes icon. They are then connected by the line. schematic cycles twice, adding a vote to the block icon each time. | 00:07 
+3 | ![Shot 3](../decredPoS/img/shot_3.svg) | **VO:**<br />Where participants purchase tickets for a chance to have their voice heard.<br />**action:**<br />Wallet icon appears pushing the schematic to the left, followed by the purchase ticket icon, pushing the schematic down. A line connects them and the schematic cycles filling the block icon with votes. | 00:12 
+4 | ![Shot 4](../decredPoS/img/shot_4.svg) | **VO:**<br />The price of a ticket is determined every 144 blocks by an algorithm designed to keep the total number of live tickets equal to the target size.<br />**action:**<br />Timer counts up to 144 blocks and activates the algorithm. Ticket count rapidly changes to above `40960`. Price is lowered. Timer counts up again. Count changes to below `40960` and price is increased. | 00:22 
+5 | ![Shot 5](../decredPoS/img/shot_5.svg) | **VO:**<br />to purchase a ticket, participants must have enough Decred to cover the current ticket price.<br />**action:**<br />`purchase ticket` button and icon are grey. `Available` counts up from zero. Then `ticket price`. `Purchase Ticket` button and icon turn green. | 00:28 
+6 | ![Shot 6](../decredPoS/img/shot_6.svg) | **VO:**<br />If the participant's balance is high enough, a portion equal to the current ticket price may be locked in exchange for a ticket. These locked funds can not be spent for the life of the corresponding ticket. <br />**action:**<br />Purchase ticket button is pressed. purchase ticket screen slides to the left to show the tickets screen. `availabe` is subtracted by `ticket price.` `Locked` counts up. Ticket record slides up. Timer counts up in seconds. | 00:41 
+7 | ![Shot 7](../decredPoS/img/shot_7.svg) | **VO:**<br />How long a ticket must wait to vote is entirely up to chance, but averages 30 days.<br />**action:**<br />Bars slide in from left one by one, from bottom to top. Then average line. | 00:48 
+8 | ![Shot 8](../decredPoS/img/shot_8.svg) | **VO:**<br />A ticket's life begins after it is mined into a block. If the ticket is sent with a sufficient transaction fee, it will be mined into the next block. Miners can include up to 20 tickets in a block. Once mined, a ticket is considered immature and must wait about 20 hours before it becomes live and is added to the ticket pool.<br />**action:**<br />1st half draws out and cycles, then emphasis on tx fee. Second half draws out. Entire schematic cycles. Timer counts up to 12 hours. | 01:07 
+9 | ![Shot 9](../decredPoS/img/shot_9.svg) | **VO:**<br />The ticket pool is where live tickets wait to be chosen to vote. About every 5 minutes, with the creation of each new block, 5 tickets are randomly selected from the pool.<br />**action:**<br />Timer counts up to 5 minutes. The 5 tickets turn green. | 01:20 
+10 | ![Shot 10](../decredPoS/img/shot_10.svg) | **VO:**<br />Once their ticket is drawn, a participant's votes are broadcast to the network by their chosen voting service provider for inclusion in the next block.<br />**action:**<br />Schematic cycles up and around. | 01:29 
+11 | ![Shot 11](../decredPoS/img/shot_11.svg) |**VO:**<br />In rare instances when a ticket expires before being drawn or the vote is 'missed' due to not being broadcast on time, the ticket is revoked and the corresponding funds are unlocked so the participant can purchase another ticket.<br />**action:**<br />Draw `not drawn` first (timer counts up to 4 months), then `drawn` (broadcast icon animated slowly), then `revoked` and `unlock funds`| 01:47 
+12 | ![Shot 12](../decredPoS/img/shot_12.svg) | **VO:**<br />There are two on-chain voting processes to participate in: block votes and consensus votes.<br />**action:**<br /> | 01:55 
+13 | ![Shot 13](../decredPoS/img/shot_13.svg) | **VO:**<br />Block votes provide a mechanism for participants to keep proof-of-work miners in check.<br />**action:**<br />schematic quickly 'cycles' multiple times over duration. | 02:02 
+14 | ![Shot 14](../decredPoS/img/shot_14.svg) | **VO:**<br />A 3 out of 5 vote in each new block decides whether to accept or reject the previous block. If the block is rejected, the founding miner will not receive their part of the block reward.<br />**action:**<br />Blocks are added, voting the previous block yes/no for the duration. Each of the 5 votes are added to the middle block icon as green/orange headers. If the block is voted no, then it turns completely red. If yes, the block turns completely green and the `if yes` portion is highlighted and the reward chest opens. | 02:13 
+15 | ![Shot 15](../decredPoS/img/shot_15.svg) | **VO:**<br />Consensus voting is a two stage process where participants vote for or against the implementation of changes to the Decred network.<br />**action:** <br />Schematic 'cycles' slowly. | 02:31 
+16 | ![Shot 16](../decredPoS/img/shot_16.svg) | **VO:**<br />Upon release of the new code to be voted on, proof of stake and proof of work nodes begin signaling they have upgraded. Once a majority is upgraded, voting is scheduled to begin.<br />**action:** <br />Schematic cycles `no` first, then `yes` | 02:40 
+17 | ![Shot 17](../decredPoS/img/shot_17.svg) | **VO:**<br />After voting begins, votes are collected over the next 4 weeks to be tallied. If 90% of votes are abstaining, then a revote occurs. Else, if  75% of non abstaining votes signal yes, then the changes to the network will be automatically activated after a 4 week grace period.<br />**action:**<br />Schematic cycles `abstain` first, then `yes`. | 03:03 
+18 | ![Shot 18](../decredPoS/img/shot_18.svg) | **VO:**<br />After a participant's vote has been cast and a 21 hour waiting period has elapsed, the funds used to purchase the voted ticket are unlocked and a portion of the block reward is credited to their account.<br />**action:**<br />An event:  `ticket voted` is added. followed by  `unlock funds`. Timer counts down from 12 hours. `pending` turns to confirmed. `locked` counts down into available. Another event is added `+  1.22019340 dcr` | 03:16 
+19 | ![Shot 19](../decredPoS/img/shot_19.svg) | **VO:**<br />Additionally, live tickets give access to voting through Politeia, Decred's public chain-anchored proposal system where anyone can propose new ideas <br />**action:**<br />Proposals slide up onto the screen. | 03:25 
+20 | ![Shot 20](../decredPoS/img/shot_20.svg) | **VO:**<br />to be voted on by proof of stake participants to decide the path of Decred's future development.<br />**action**<br />`yes` vote is chosen. The green bar gets a little longer and `yes` vote count goes up by 1. | 03:32 
+21 | ![Shot 21](../decredPoS/img/shot_21.svg) | **VO:**<br />To begin participating in Decred proof-of-stake | 03:35 
+22 | ![Shot 22](../decredPoS/img/shot_22.svg) | **VO:**<br />download Decrediton at Decred.org | 03:38 
+23 | ![Shot 23](../decredPoS/img/shot_23.svg) | **VO:**<br />and purchase Decred at any one of the many supporting exchanges. | 03:43 
+24 | ![Shot 24](../decredPoS/img/shot_24.svg) | **VO:**<br />Decred; Decentralized Credits. | 03:46 
