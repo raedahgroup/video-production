@@ -77,7 +77,7 @@ class Row(object):
         :return: str() - formatted md storyboard table row
         """
 
-        return '{} |{}|{}|{}'.format(str(self.i),
+        return '{} |{}|{}|{}|\n'.format(str(self.i),
                                      self.visual,
                                      self.vo,
                                      self.time)
@@ -89,14 +89,14 @@ class Row(object):
         :param id: str() - id of where to split vo text
         :return: str() - second half of split vo text
         """
-        vo = self.vo.split(' ')
+        vo = self.vo.split(' ')[1:-1]
         x = 0
         for i, word in enumerate(vo):
             if word in id:
                 x += 1
                 if x == len(id):
                     self.vo = build_sentence(vo[:i+1])
-                    return ' ' + build_sentence(vo[i+1:])
+                    return build_sentence(vo[i+1:])
 
     def increment(self):
         """Increments index column and img path.
@@ -283,13 +283,10 @@ def build_sentence(words):
     :param words: list( str(), ... ) - list of word strings
     :return: None
     """
-    sentence = ''
+    sentence = ' '
     for i, word in enumerate(words):
-        sentence += word
-        if i != len(words) - 1:
-            sentence += ' '
+        sentence += word + ' '
     return sentence
-
 
 def read_f(path):
     """Read file from path
@@ -324,7 +321,7 @@ def build_story(lines, dir):
     skip = ['#', '`', '*', '\n', ' ']
     story_lines = [ lines[0],
                     '\n',
-                   '###Storyboard\n',
+                   '### Storyboard\n',
                    '**Estimated Runtime:**\n',
                    '\n',
                    'No. | VISUAL | AUDIO | TIME\n',
@@ -344,13 +341,14 @@ def build_story(lines, dir):
 
 
 def parse_story(path):
-    """Parses _storyboard.md file into a list of hearder lines and
-    andother list of table rows as Row objects
+    """Parses _storyboard.md file into a list of header lines and
+    another list of table rows as Row objects
 
     :param path: str()
     :return: list( str(), ... ), list( Row(), ... )
     """
     lines = read_f(path)
+    # TODO: allow for variable header formats
     header = lines[:7]
     table_lines = lines[7:]
     #print(header)
