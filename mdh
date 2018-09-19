@@ -77,7 +77,6 @@ class Row(object):
         :return: str() - formatted md storyboard table row
         """
 
-
         return '{} |{}|{}|{}'.format(str(self.i),
                                      self.visual,
                                      self.vo,
@@ -96,7 +95,7 @@ class Row(object):
             if word in id:
                 x += 1
                 if x == len(id):
-                    self.vo = build_sentence(vo[:i]) + ' {} '.format(id[0])
+                    self.vo = build_sentence(vo[:i+1])
                     return ' ' + build_sentence(vo[i+1:])
 
     def increment(self):
@@ -204,7 +203,9 @@ def split_row(path, row_id, text, img):
     lines = header
     for row in table:
         lines.append(row.build())
-    
+
+    #print(lines)
+
     # write file
     write_f(path, lines)
     if img:
@@ -335,7 +336,7 @@ def build_story(lines, dir):
             pass
         else:
             story_lines.append(
-                '{} | ![shot {}](../{}/img/shot_{}.svg) |  | {} | \n'.format
+                '{} | ![shot {}](../{}/img/shot_{}.svg) | {} |  |\n'.format
                 (i, i, dir, i, line[:-1])
             )
             i += 1
@@ -393,7 +394,7 @@ def parse_args():
             print('working dicrectory: ./{}'.format(dir))
         dir = check_dir()
         if i_args[0] == 'build':
-            i = './{}/{}_vo.md'.format(dir, dir)
+            i = './{}/{}_script.md'.format(dir, dir)
             o = './{}/{}_storyboard.md'.format(dir, dir)
             if os.path.isfile(o):
                 confirm(input('{} Already Exists! overwrite? Y/n: '.format(o, i)))
