@@ -230,7 +230,8 @@ def delete_row(path, row_id, img):
         """
         # delete the image corresponding to the deleted row.
         try:
-            os.remove(del_image)
+            if del_image:
+                os.remove(del_image)
         except FileNotFoundError:
             print(table[row_id].img_path + 'not found!')
 
