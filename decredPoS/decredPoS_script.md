@@ -1,7 +1,7 @@
 ## Decred In Depth: Proof-of-stake Voting
 ### Voice Over Script
 
-Without a form of on-chain governance, pure proof-of-work currencies like Bitcoin are at the mercy of their miners. With no way to keep proof-of-work miners in check *or* agree on consensus rule changes, Bitcoin leaves itself open to 51% attacks and community splitting hard forks.
+Without a form of on-chain governance, pure proof-of-work currencies like Bitcoin are at the mercy of their miners. With no way to keep proof-of-work miners in check *or* agree on consensus rule changes, these currencies leaves itself open to 51% attacks and chain-splitting hard forks.
 
 **Decred's** **Proof-of-Stake Voting** system, (which is part of its hybrid proof-of-work - proof-of-stake protocol), puts power in the hands of its stakeholders, not its miners. By participating in proof-of-stake voting, stakeholders can stop 51% attacks, prevent unwanted hard forks, and shape the future of the project.
 
@@ -21,7 +21,7 @@ After 256 blocks (or about 21 hours), immature tickets become live and are added
 
 With each block, 5 tickets are randomly drawn from the ticket pool.
 
-How long an individual ticket will wait in the pool before being drawn is entirely up to chance, but current data shows the average waiting time is 30 days. In rare circumstances, it is possible for a ticket to never be drawn. This occurs with less than 1 percent of all tickets and results in a full refund of the expired ticket's price.
+How long an individual ticket will wait in the pool before being drawn is entirely up to chance, but the average waiting time is close to one month. In rare circumstances, it is possible for a ticket to never be drawn. This occurs with less than 1 percent of all tickets and results in a full refund of the expired ticket's price.
 
 Once their ticket is drawn, a ticketholder's votes must be broadcast to the network from either their own *self-hosted* **voting wallet** or a designated **voting service provider** for inclusion the next block. If votes are not broadcast quickly enough, their intended block may be mined without them. This occurs in less than 2% of cases and results in a full refund of the missed ticket's price.
 
@@ -37,15 +37,12 @@ After the update threshold is met voting will begin on the *first block* of the 
 
 Each rule change interval spans 8,064 blocks (or about 4 weeks) during which votes for any active rule change processes are collected.  A revote occurs if 90% of votes collected during the entire interval abstain.  Else, if 75% of non-abstaining votes signal yes, then the proposed rule changes will be activated at the end of the *next* rule change interval.
 
-After a ticketholder's votes has been included in a block and a 256 block immaturity phase has passed, the price of the voted ticket is fully refunded and a portion of the Decred block reward is credited to their account as compensation for their active participation.
+After a ticketholder's votes have been included in a block and another immaturity phase has passed, the price of the voted ticket is fully refunded and a portion of the Decred block reward is credited to their account as compensation for their active participation.
 
 On-chain voting allows stakeholders to govern the chain, but what about governance of the project itself?
 
 While their live tickets are waiting in the ticket pool, ticketholders have access to proposal voting through Politeia, Decred's chain-anchored proposal system. Through Politeia anyone can shape the future of Decred by proposing new ideas for stakeholder consideration in an off-chain yet cryptographically verifiable manner.
 
-To begin participating in the governance of Decred, download Decrediton at Decred.org and up your stake by purchasing decred at any one of the many supporting exchanges.
+To begin participating in the governance of Decred, download Decrediton at Decred.org and purchase Decred at any one of the many supporting exchanges.
 
 Decred; Decentralized credits.
-
-
-
