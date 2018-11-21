@@ -19,7 +19,9 @@ Decred blocks are found and broadcast every 5 minutes on average by proof-of-wor
 
 Here's why:
 
-Decred utilizes a hybrid proof-of-work - proof-of-stake protocol where 90% of Decred's block reward is split between proof-of-work Miners and participating stakeholders called Proof-of-stake Voters. Miners receive 60% of the total block reward for finding Decred blocks while Voters receive 30% for casting on-chain votes.
+Decred utilizes a hybrid proof-of-work - proof-of-stake protocol where 90% of Decred's block reward is split between proof-of-work Miners and participating stakeholders called Proof-of-stake Voters. 
+
+Miners receive 60% of the total block reward for finding Decred blocks while Voters receive 30% for casting on-chain votes.
 
 It works like this:
 
@@ -35,7 +37,11 @@ The differences don't stop there.
 
 The remaining 10% of the Decred block reward is placed in the Decred Treasury. The Treasury makes Decred a self-funded open source project with no need for outside capital or an ICO.
 
-How the funds in the Treasury are spent is also determined by participating stakeholders. Through Politeia, the Decred proposal system, anyone can shape the future of Decred by proposing new ideas for stakeholder consideration. All proposals must be approved by stakeholders, giving them sovereignty over Decred's development.
+How the funds in the Treasury are spent is also determined by participating stakeholders. 
+
+Through Politeia, the Decred proposal system, anyone can shape the future of Decred by proposing new ideas for stakeholder consideration. 
+
+All proposals must be approved by stakeholders, giving them sovereignty over Decred's development.
 
 Decred is a community driven cryptocurrency with open governance and sustainable funding for development. 
 

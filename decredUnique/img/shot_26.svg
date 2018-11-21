@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #f3f5f6;
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path-3);
+      }
+
+      .cls-5 {
+        fill: #c4cbd2;
+      }
+
+      .cls-6 {
+        clip-path: url(#clip-path-5);
+      }
+
+      .cls-7 {
+        fill: #8795a2;
+      }
+
+      .cls-8 {
+        fill: #fff;
+        opacity: 0.99;
+      }
+
+      .cls-9 {
+        clip-path: url(#clip-path-7);
+      }
+
+      .cls-10 {
+        fill: #ed6d47;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="1920" height="1080"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect class="cls-1" x="769" y="340" width="364" height="365"/>
+    </clipPath>
+    <clipPath id="clip-path-5">
+      <rect class="cls-1" x="945" y="480" width="187" height="201"/>
+    </clipPath>
+    <clipPath id="clip-path-7">
+      <rect class="cls-1" x="751" y="317" width="321" height="409"/>
+    </clipPath>
+  </defs>
+  <title>shot_26</title>
+  <g id="Layer_3" data-name="Layer 3">
+    <g class="cls-2">
+      <g class="cls-2">
+        <rect class="cls-3" width="1920" height="1080"/>
+      </g>
+    </g>
+    <g class="cls-4">
+      <g class="cls-4">
+        <path class="cls-5" d="M770,522.44A181.66,181.66,0,1,0,951.64,340.78,181.66,181.66,0,0,0,770,522.44Z"/>
+      </g>
+    </g>
+    <g class="cls-6">
+      <g class="cls-6">
+        <path class="cls-7" d="M1125.68,480.53a178.32,178.32,0,0,1-81.75,200l-97.82-157Z"/>
+      </g>
+    </g>
+    <path class="cls-8" d="M950.83,339.1a185.91,185.91,0,0,1,75.41,16.23l-83.77,165-4.81,1.15,4.7-.93.11-.22.93-.21.33.52-.33.11h.39l100.73,159.42a185.77,185.77,0,0,1-93.69,25.6c-102,0-184.7-82.09-184.7-183.35S848.82,339.1,950.83,339.1Z"/>
+    <g class="cls-9">
+      <g class="cls-9">
+        <path class="cls-10" d="M964,318.59a220.65,220.65,0,0,1,86.86,18L954.37,520.14l-5.54,1.27,5.41-1,.13-.23,1.07-.25.38.58-.38.13.46,0,116,177.26A219.85,219.85,0,0,1,964,726.3c-117.49,0-212.74-91.27-212.74-203.86S846.51,318.59,964,318.58Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

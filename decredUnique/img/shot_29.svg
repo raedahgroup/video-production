@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        isolation: isolate;
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        fill: #f3f5f6;
+      }
+
+      .cls-5 {
+        fill: #8795a2;
+      }
+
+      .cls-6 {
+        fill: #c4cbd2;
+      }
+
+      .cls-7 {
+        fill: #2970ff;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <title>shot_29</title>
+  <g id="Layer_3" data-name="Layer 3">
+    <g class="cls-2">
+      <g class="cls-3">
+        <g class="cls-2">
+          <g class="cls-3">
+            <g class="cls-3">
+              <rect class="cls-4" width="1920" height="1080"/>
+            </g>
+          </g>
+          <path class="cls-5" d="M482.68,464.17a13.39,13.39,0,0,1,18.11,18.15A108,108,0,0,0,482.68,464.17Z"/>
+          <path class="cls-6" d="M484.26,509.1l-9.47,9.47-23.66-23.66-4.75-4.74,9.45-9.5-4.6-4.72-34.5-34.63a105.67,105.67,0,0,1,65.93,22.84,107.32,107.32,0,0,1,41,84.29L489,513.82Z"/>
+          <path class="cls-5" d="M470.06,513.82,365.9,618A13.39,13.39,0,0,1,347,599L451.12,494.88Z"/>
+          <path class="cls-5" d="M1429.11,495.25,1383.86,450h48.48l73,73h-48.46c-20.21,0-37.14,16.53-36.74,36.73a36,36,0,0,0,36,35.27h18.19l36,36h-54.06a72.4,72.4,0,0,1-72.4-72.4C1383.86,529.24,1398.34,505.57,1429.11,495.25Z"/>
+          <path class="cls-6" d="M1555.52,585.75,1600.77,631H1552.3l-73-73h48.46c20.2,0,37.13-16.53,36.73-36.73a36,36,0,0,0-36-35.27h-18.19l-36-36h53.45c39.19,0,72.48,32,73,71.22C1601.15,551.13,1586.7,575.29,1555.52,585.75Z"/>
+          <rect class="cls-5" x="587" y="525" width="50" height="7"/>
+          <rect class="cls-6" x="587" y="531" width="50" height="24"/>
+          <rect class="cls-5" x="644" y="525" width="50" height="7"/>
+          <rect class="cls-6" x="644" y="531" width="50" height="24"/>
+          <rect class="cls-5" x="587" y="563" width="50" height="7"/>
+          <rect class="cls-6" x="587" y="570" width="50" height="24"/>
+          <rect class="cls-5" x="644" y="563" width="50" height="7"/>
+          <rect class="cls-6" x="644" y="570" width="50" height="24"/>
+          <rect class="cls-5" x="587" y="486" width="107" height="7"/>
+          <rect class="cls-6" x="587" y="493" width="107" height="23"/>
+          <rect class="cls-5" x="907" y="525" width="50" height="7"/>
+          <rect class="cls-6" x="907" y="531" width="50" height="24"/>
+          <rect class="cls-5" x="963" y="525" width="50" height="7"/>
+          <rect class="cls-6" x="963" y="531" width="50" height="24"/>
+          <rect class="cls-5" x="907" y="563" width="50" height="7"/>
+          <rect class="cls-6" x="907" y="570" width="50" height="24"/>
+          <rect class="cls-5" x="963" y="563" width="50" height="7"/>
+          <rect class="cls-6" x="963" y="570" width="50" height="24"/>
+          <rect class="cls-5" x="907" y="486" width="107" height="7"/>
+          <polygon class="cls-6" points="973.94 516 1014 516 1014 493 907 493 907 516 973.94 516"/>
+          <rect class="cls-7" x="1227" y="525" width="50" height="7"/>
+          <polygon class="cls-6" points="1227 548.16 1227 555 1277 555 1277 531 1227 531 1227 548.16"/>
+          <rect class="cls-7" x="1284" y="525" width="50" height="7"/>
+          <polygon class="cls-6" points="1334 548.16 1334 531 1284 531 1284 555 1334 555 1334 548.16"/>
+          <rect class="cls-7" x="1227" y="563" width="50" height="7"/>
+          <polygon class="cls-6" points="1227 587.09 1227 594 1277 594 1277 570 1227 570 1227 587.09"/>
+          <rect class="cls-7" x="1284" y="563" width="50" height="7"/>
+          <polygon class="cls-6" points="1334 587.09 1334 570 1284 570 1284 594 1334 594 1334 587.09"/>
+          <rect class="cls-7" x="1227" y="486" width="107" height="7"/>
+          <polygon class="cls-6" points="1334 509.44 1334 493 1227 493 1227 516 1334 516 1334 509.44"/>
+          <path class="cls-6" d="M984.13,538a41.33,41.33,0,1,0-50.07,0,94.5,94.5,0,0,0-49.29,32.83,82.74,82.74,0,0,0,148.67,0A94.47,94.47,0,0,0,984.13,538Z"/>
+          <path class="cls-5" d="M1017.55,593.05a82.75,82.75,0,0,1-132.78-22.24A94.43,94.43,0,0,1,934.08,538a41.33,41.33,0,1,1,50.07,0,94.43,94.43,0,0,1,49.31,32.83A82.75,82.75,0,0,1,1017.55,593.05ZM959.1,440.15a94.46,94.46,0,1,0,94.46,94.45A94.46,94.46,0,0,0,959.1,440.15Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

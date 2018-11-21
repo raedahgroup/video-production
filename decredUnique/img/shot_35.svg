@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f3f5f6;
+      }
+
+      .cls-2 {
+        isolation: isolate;
+      }
+
+      .cls-3 {
+        fill: #c4cbd2;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #8795a2;
+      }
+
+      .cls-5 {
+        font-size: 40px;
+        font-family: SourceSansPro-Regular, Source Sans Pro;
+      }
+
+      .cls-6 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-7 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <title>shot_35</title>
+  <g id="Layer_3" data-name="Layer 3">
+    <rect class="cls-1" width="1920" height="1080"/>
+    <g class="cls-2">
+      <path class="cls-3" d="M1036.05,609h-29v39h29.76a39,39,0,1,1,0,78H959v78h39V765h38a75.2,75.2,0,0,0,54.79-22.31,79.34,79.34,0,0,0,0-111.38A75.2,75.2,0,0,0,1036.05,609Z"/>
+      <path class="cls-4" d="M997.57,628.25a19.53,19.53,0,1,1-19.52-19.52A19.52,19.52,0,0,1,997.57,628.25Z"/>
+      <path class="cls-3" d="M959,648H919v39H880.42a78,78,0,0,0,0,156H910V804H880.22a39,39,0,0,1,0-78H959Z"/>
+      <path class="cls-4" d="M939,804a19.5,19.5,0,1,0,13.86,5.67A19.49,19.49,0,0,0,939,804Z"/>
+      <text class="cls-5" transform="translate(693.66 268.55)">THE DECRED PROPOSAL <tspan class="cls-6" x="413.27" y="0">SY</tspan><tspan class="cls-7" x="452.47" y="0">S</tspan><tspan class="cls-8" x="472.99" y="0">TEM</tspan></text>
+    </g>
+  </g>
+</svg>

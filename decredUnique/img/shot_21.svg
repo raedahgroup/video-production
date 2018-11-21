@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f3f5f6;
+      }
+
+      .cls-2 {
+        isolation: isolate;
+      }
+
+      .cls-3 {
+        fill: #2970ff;
+      }
+
+      .cls-4 {
+        fill: #c4cbd2;
+      }
+    </style>
+  </defs>
+  <title>shot_21</title>
+  <g id="Layer_3" data-name="Layer 3">
+    <rect class="cls-1" width="1920" height="1080"/>
+    <g class="cls-2">
+      <rect class="cls-3" x="1186" y="510" width="89" height="12"/>
+      <polygon class="cls-4" points="1275 552.02 1275 522 1186 522 1186 564 1275 564 1275 552.02"/>
+      <rect class="cls-3" x="1287" y="510" width="89" height="12"/>
+      <polygon class="cls-4" points="1376 552.02 1376 522 1287 522 1287 564 1376 564 1376 552.02"/>
+      <rect class="cls-3" x="1186" y="578" width="89" height="12"/>
+      <polygon class="cls-4" points="1186 619.92 1186 632 1275 632 1275 590 1186 590 1186 619.92"/>
+      <rect class="cls-3" x="1287" y="578" width="89" height="12"/>
+      <polygon class="cls-4" points="1376 619.92 1376 590 1287 590 1287 632 1376 632 1376 619.92"/>
+      <rect class="cls-3" x="1186" y="442" width="189" height="12"/>
+      <polygon class="cls-4" points="1375 483.33 1375 454 1186 454 1186 495 1375 495 1375 483.33"/>
+    </g>
+  </g>
+</svg>

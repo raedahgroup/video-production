@@ -2,3 +2,7 @@
 mdh.conf
 /test/*
 /.idea/*
+__pycache__/*
+clean_svg.py
+*.pdf
+*/graphics/*

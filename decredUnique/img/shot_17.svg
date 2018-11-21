@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #f3f5f6;
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        fill: #8795a2;
+      }
+
+      .cls-5 {
+        fill: #c4cbd2;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" x="864" y="441" width="191" height="191"/>
+    </clipPath>
+  </defs>
+  <title>shot_17</title>
+  <g id="Layer_3" data-name="Layer 3">
+    <rect class="cls-2" width="1920" height="1080"/>
+    <g class="cls-3">
+      <g class="cls-3">
+        <rect class="cls-4" x="865" y="510" width="89" height="12"/>
+        <polygon class="cls-5" points="954 552.02 954 522 865 522 865 564 954 564 954 552.02"/>
+        <rect class="cls-4" x="966" y="510" width="89" height="12"/>
+        <polygon class="cls-5" points="1055 552.02 1055 522 966 522 966 564 1055 564 1055 552.02"/>
+        <rect class="cls-4" x="865" y="578" width="89" height="12"/>
+        <polygon class="cls-5" points="865 619.92 865 632 954 632 954 590 865 590 865 619.92"/>
+        <rect class="cls-4" x="966" y="578" width="89" height="12"/>
+        <polygon class="cls-5" points="1055 619.92 1055 590 966 590 966 632 1055 632 1055 619.92"/>
+        <rect class="cls-4" x="865" y="442" width="189" height="12"/>
+        <polygon class="cls-5" points="1054 483.33 1054 454 865 454 865 495 1054 495 1054 483.33"/>
+      </g>
+    </g>
+  </g>
+</svg>

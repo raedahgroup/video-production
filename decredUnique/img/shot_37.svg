@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        isolation: isolate;
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        fill: #f3f5f6;
+      }
+
+      .cls-5 {
+        fill: #c4cbd2;
+      }
+
+      .cls-6 {
+        fill: #8795a2;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <title>shot_37</title>
+  <g id="Layer_3" data-name="Layer 3">
+    <g class="cls-2">
+      <g class="cls-3">
+        <g class="cls-2">
+          <g class="cls-3">
+            <g class="cls-3">
+              <rect class="cls-4" width="1920" height="1080"/>
+            </g>
+          </g>
+          <polygon class="cls-5" points="843.61 273 872.67 273 858.14 243.94 843.61 273"/>
+          <rect class="cls-6" x="902" y="360" width="160" height="15"/>
+          <rect class="cls-6" x="902" y="389" width="80" height="15"/>
+          <rect class="cls-6" x="844" y="273" width="29" height="203"/>
+          <path class="cls-5" d="M902,389h80v15H902Zm0-29h160v15H902Zm0-29h160v15H902Zm0-29h160v15H902ZM887,425.79V476h189V244H887Z"/>
+          <rect class="cls-6" x="902" y="331" width="160" height="15"/>
+          <rect class="cls-6" x="902" y="302" width="160" height="15"/>
+          <path class="cls-5" d="M991.08,724.93a50.08,50.08,0,1,0-60.66,0,114.5,114.5,0,0,0-59.72,39.78,100.25,100.25,0,0,0,180.12,0A114.42,114.42,0,0,0,991.08,724.93Z"/>
+          <path class="cls-6" d="M1031.58,791.65A100.25,100.25,0,0,1,870.7,764.71a114.44,114.44,0,0,1,59.75-39.78,50.07,50.07,0,1,1,60.66,0,114.54,114.54,0,0,1,59.74,39.77A100.2,100.2,0,0,1,1031.58,791.65ZM960.76,606.4a114.45,114.45,0,1,0,114.45,114.44A114.45,114.45,0,0,0,960.76,606.4Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

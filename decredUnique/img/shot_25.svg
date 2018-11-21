@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f3f5f6;
+      }
+
+      .cls-2 {
+        isolation: isolate;
+      }
+
+      .cls-3 {
+        fill: #8896a3;
+      }
+
+      .cls-4 {
+        fill: #c4cbd2;
+      }
+
+      .cls-5 {
+        fill: #ed6d47;
+      }
+    </style>
+  </defs>
+  <title>shot_25</title>
+  <g id="Layer_3" data-name="Layer 3">
+    <g>
+      <rect class="cls-1" width="1920" height="1080"/>
+      <g class="cls-2">
+        <path class="cls-3" d="M906,443a13.21,13.21,0,0,0-17.87,17.91A105.89,105.89,0,0,1,906,443Z"/>
+        <path class="cls-4" d="M904.45,487.34l9.35,9.34,4.66-4.66,18.7-18.69,4.68-4.68-9.33-9.38,4.54-4.66,34.05-34.18A104.35,104.35,0,0,0,906,443a106,106,0,0,0-40.45,83.2L899.76,492Z"/>
+        <path class="cls-5" d="M918.46,492l102.82,102.8a13.22,13.22,0,0,0,18.68-18.7L937.16,473.3Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

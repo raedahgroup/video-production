@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-12, .cls-3 {
+        fill: #f3f5f6;
+      }
+
+      .cls-4 {
+        isolation: isolate;
+      }
+
+      .cls-5 {
+        fill: #8795a3;
+      }
+
+      .cls-6 {
+        fill: #c4cbd2;
+      }
+
+      .cls-7, .cls-8 {
+        fill: #8795a2;
+      }
+
+      .cls-8 {
+        font-size: 40px;
+        font-family: SourceSansPro-Regular, Source Sans Pro;
+      }
+
+      .cls-9 {
+        letter-spacing: 0em;
+      }
+
+      .cls-10 {
+        clip-path: url(#clip-path-3);
+      }
+
+      .cls-11 {
+        clip-path: url(#clip-path-5);
+      }
+
+      .cls-12, .cls-14 {
+        opacity: 0.99;
+      }
+
+      .cls-13 {
+        clip-path: url(#clip-path-7);
+      }
+
+      .cls-14 {
+        fill: #fff;
+      }
+
+      .cls-15 {
+        clip-path: url(#clip-path-9);
+      }
+
+      .cls-16 {
+        clip-path: url(#clip-path-11);
+      }
+
+      .cls-17 {
+        clip-path: url(#clip-path-13);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="1920" height="1080"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect class="cls-1" x="744" y="503" width="415" height="415"/>
+    </clipPath>
+    <clipPath id="clip-path-5">
+      <rect class="cls-1" x="726" y="660" width="277" height="299"/>
+    </clipPath>
+    <clipPath id="clip-path-7">
+      <rect class="cls-1" x="857" y="527" width="280" height="368"/>
+    </clipPath>
+    <clipPath id="clip-path-9">
+      <rect class="cls-1" x="815" y="469" width="380" height="483"/>
+    </clipPath>
+    <clipPath id="clip-path-11">
+      <rect class="cls-1" x="848" y="529" width="285" height="363"/>
+    </clipPath>
+    <clipPath id="clip-path-13">
+      <rect class="cls-1" x="770" y="668" width="199" height="208"/>
+    </clipPath>
+  </defs>
+  <title>shot_32</title>
+  <g id="Layer_3" data-name="Layer 3">
+    <g class="cls-2">
+      <g class="cls-2">
+        <rect class="cls-3" width="1920" height="1080"/>
+      </g>
+    </g>
+    <g class="cls-4">
+      <path class="cls-5" d="M860,260.56a4.41,4.41,0,0,1,.09-.62C860,260.15,860,260.35,860,260.56Z"/>
+      <path class="cls-6" d="M875.34,274H1032V262.41A17.47,17.47,0,0,0,1014.59,245H875.34a17.46,17.46,0,0,0-17.18,14.5A17.46,17.46,0,0,0,875.34,274Z"/>
+      <path class="cls-5" d="M859.87,261.27a4.51,4.51,0,0,1,0-.54C859.9,260.9,859.89,261.08,859.87,261.27Z"/>
+      <path class="cls-5" d="M859.82,262a3,3,0,0,1,0-.42C859.83,261.75,859.82,261.86,859.82,262Z"/>
+      <path class="cls-6" d="M1024.21,345.69A35.78,35.78,0,0,0,1060,381.47V309.9A35.79,35.79,0,0,0,1024.21,345.69Z"/>
+      <path class="cls-7" d="M1042.85,274H877s-15.53-5.81-17-14.06c0,.21-.07.41-1,.62v.16c.92.18.89.36.87.53a1.88,1.88,0,0,0,0,.34,1.92,1.92,0,0,0,.13.42v137.8A17.23,17.23,0,0,0,877.15,417h165.7A17.23,17.23,0,0,0,1060,399.81V381.34a35.83,35.83,0,1,1,0-71.65v-18.5A17.23,17.23,0,0,0,1042.85,274Z"/>
+      <text class="cls-8" transform="translate(760.72 204.95)">THE DECRED <tspan class="cls-9" x="221.56" y="0">T</tspan><tspan x="242.92" y="0">REASURY</tspan></text>
+      <g class="cls-10">
+        <g class="cls-10">
+          <circle class="cls-7" cx="951.2" cy="710.45" r="206.65"/>
+        </g>
+      </g>
+      <g class="cls-11">
+        <g class="cls-11">
+          <path class="cls-12" d="M734.62,660.2A265.87,265.87,0,0,0,856.47,958.31l145.8-234Z"/>
+        </g>
+      </g>
+      <g class="cls-13">
+        <g class="cls-13">
+          <path class="cls-14" d="M952,527.11a185.86,185.86,0,0,0-75.41,16.22l83.77,165,4.81,1.15-4.7-.94-.11-.21-.93-.22-.33.53.33.11H959L858.31,868.2A185.67,185.67,0,0,0,952,893.8c102,0,184.7-82.09,184.7-183.35S1054,527.1,952,527.1Z"/>
+        </g>
+      </g>
+      <g class="cls-15">
+        <g class="cls-15">
+          <path class="cls-12" d="M943.3,469.74a260.3,260.3,0,0,0-102.57,21.31L954.66,707.72l6.55,1.51-6.4-1.23-.15-.28-1.26-.29-.45.7.45.14-.54,0-137,209.31A259.57,259.57,0,0,0,943.3,951.17c138.73,0,251.19-107.77,251.19-240.72S1082,469.74,943.3,469.74Z"/>
+        </g>
+      </g>
+      <g class="cls-16">
+        <g class="cls-16">
+          <path class="cls-6" d="M944.87,529.89a195.6,195.6,0,0,0-76.93,16l85.47,162.54,4.9,1.13-4.79-.93-.11-.2-.95-.22-.34.52.34.11-.41,0-102.76,157A194.71,194.71,0,0,0,944.87,891c104.07,0,188.43-80.84,188.43-180.56S1048.94,529.89,944.87,529.89Z"/>
+        </g>
+      </g>
+      <g class="cls-17">
+        <g class="cls-17">
+          <path class="cls-6" d="M777.55,668.53A180.72,180.72,0,0,0,771,715.66C771.13,781,806.66,841.56,864.6,875L968.76,713Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
